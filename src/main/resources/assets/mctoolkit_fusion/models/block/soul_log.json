@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mctoolkit_fusion:blocks/soulwood_log_top",
+    "up": "mctoolkit_fusion:blocks/soulwood_log_top",
+    "north": "mctoolkit_fusion:blocks/soulwood_log_side",
+    "east": "mctoolkit_fusion:blocks/soulwood_log_side",
+    "south": "mctoolkit_fusion:blocks/soulwood_log_side",
+    "west": "mctoolkit_fusion:blocks/soulwood_log_side",
+    "particle": "mctoolkit_fusion:blocks/soulwood_log_top"
+  }
+}

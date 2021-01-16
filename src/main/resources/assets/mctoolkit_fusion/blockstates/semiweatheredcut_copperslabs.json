@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mctoolkit_fusion:block/semiweatheredcut_copperslabs"
+    },
+    "type=top": {
+      "model": "mctoolkit_fusion:block/semiweatheredcut_copperslabs_top"
+    },
+    "type=double": {
+      "model": "mctoolkit_fusion:block/semiweatheredcut_copperslabs_full"
+    }
+  }
+}

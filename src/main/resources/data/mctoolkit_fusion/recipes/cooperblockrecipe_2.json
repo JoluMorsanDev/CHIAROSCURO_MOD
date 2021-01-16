@@ -1,0 +1,13 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mctoolkit_fusion:cooper_block"
+    }
+  ],
+  "result": {
+    "item": "mctoolkit_fusion:copper_ingot",
+    "count": 4
+  }
+}

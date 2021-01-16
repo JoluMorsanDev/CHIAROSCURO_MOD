@@ -1,0 +1,32 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:soul_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "mctoolkit_fusion:soul_planks"
+    },
+    "3": {
+      "item": "mctoolkit_fusion:soul_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "mctoolkit_fusion:soul_planks"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:soul_fence",
+    "count": 3
+  }
+}

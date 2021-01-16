@@ -1,0 +1,26 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "mctoolkit_fusion:soulcrystalshard"
+    },
+    "3": {
+      "item": "mctoolkit_fusion:soulcrystalshard"
+    },
+    "4": {
+      "item": "mctoolkit_fusion:soulcrystalshard"
+    },
+    "5": {
+      "item": "mctoolkit_fusion:soulcrystalshard"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:soulcrystal_3",
+    "count": 1
+  }
+}

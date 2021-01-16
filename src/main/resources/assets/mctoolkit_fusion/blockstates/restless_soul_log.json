@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "mctoolkit_fusion:block/restless_soul_log"
+    },
+    "facing=north": {
+      "model": "mctoolkit_fusion:block/restless_soul_log"
+    },
+    "facing=east": {
+      "model": "mctoolkit_fusion:block/restless_soul_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "mctoolkit_fusion:block/restless_soul_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "mctoolkit_fusion:block/restless_soul_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "mctoolkit_fusion:block/restless_soul_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

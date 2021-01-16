@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mctoolkit_fusion:blocks/soulstone_bricks_block",
+    "up": "mctoolkit_fusion:blocks/soulstone_bricks_block",
+    "north": "mctoolkit_fusion:blocks/soulstone_pillar_block",
+    "east": "mctoolkit_fusion:blocks/soulstone_pillar_block",
+    "south": "mctoolkit_fusion:blocks/soulstone_pillar_block",
+    "west": "mctoolkit_fusion:blocks/soulstone_pillar_block",
+    "particle": "mctoolkit_fusion:blocks/soulstone_bricks_block"
+  }
+}

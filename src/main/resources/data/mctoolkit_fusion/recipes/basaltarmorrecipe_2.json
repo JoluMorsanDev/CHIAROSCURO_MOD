@@ -1,0 +1,26 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:bassaltshards"
+    },
+    "2": {
+      "item": "mctoolkit_fusion:bassaltshards"
+    },
+    "3": {
+      "item": "mctoolkit_fusion:bassaltshards"
+    },
+    "5": {
+      "item": "mctoolkit_fusion:bassaltshards"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:bassaltarmor_boots",
+    "count": 1
+  }
+}

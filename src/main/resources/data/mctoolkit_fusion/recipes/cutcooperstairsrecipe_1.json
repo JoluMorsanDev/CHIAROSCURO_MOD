@@ -1,0 +1,33 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:cut_cooper"
+    },
+    "3": {
+      "item": "mctoolkit_fusion:cut_cooper"
+    },
+    "4": {
+      "item": "mctoolkit_fusion:cut_cooper"
+    },
+    "6": {
+      "item": "mctoolkit_fusion:cut_cooper"
+    },
+    "7": {
+      "item": "mctoolkit_fusion:cut_cooper"
+    },
+    "8": {
+      "item": "mctoolkit_fusion:cut_cooper"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:cut_cooper_stairs",
+    "count": 4
+  }
+}

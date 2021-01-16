@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mctoolkit_fusion:blocks/semi_weathered_cut_copper",
+    "particle": "mctoolkit_fusion:blocks/semi_weathered_cut_copper"
+  }
+}

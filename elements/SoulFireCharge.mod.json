@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "soulfirecharge",
+    "customModelName": "Normal",
+    "name": "Soul Fire Charge",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 1,
+    "actionSound": {
+      "value": "item.firecharge.use"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.5,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 3,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:SoulFireCharge"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "soulfirecharge.png",
+    "onBulletHitsBlock": {
+      "name": "Soulfirechargeblock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "SoulFireChargeBulletHitsLivingEntity"
+    },
+    "onBulletHitsEntity": {
+      "name": "SoulFireChargeBulletHitsLivingEntity"
+    }
+  }
+}

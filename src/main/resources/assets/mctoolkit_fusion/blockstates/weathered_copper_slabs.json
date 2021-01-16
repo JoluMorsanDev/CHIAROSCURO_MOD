@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mctoolkit_fusion:block/weathered_copper_slabs"
+    },
+    "type=top": {
+      "model": "mctoolkit_fusion:block/weathered_copper_slabs_top"
+    },
+    "type=double": {
+      "model": "mctoolkit_fusion:block/weathered_copper_slabs_full"
+    }
+  }
+}

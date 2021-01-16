@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mctoolkit_fusion:blocks/embedded_restless_soul_crystals",
+    "particle": "mctoolkit_fusion:blocks/embedded_restless_soul_crystals"
+  }
+}

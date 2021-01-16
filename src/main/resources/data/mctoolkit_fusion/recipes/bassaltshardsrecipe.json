@@ -1,0 +1,9 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:basalt"
+  },
+  "result": "mctoolkit_fusion:bassaltshards"
+}

@@ -1,0 +1,16 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mctoolkit_fusion:lightly_weathered_copper_block"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "mctoolkit_fusion:waxed_lightly_weathered_copper_block",
+    "count": 1
+  }
+}

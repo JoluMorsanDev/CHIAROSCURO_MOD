@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mctoolkit_fusion:block/cut_cooper_slabs"
+    },
+    "type=top": {
+      "model": "mctoolkit_fusion:block/cut_cooper_slabs_top"
+    },
+    "type=double": {
+      "model": "mctoolkit_fusion:block/cut_cooper_slabs_full"
+    }
+  }
+}

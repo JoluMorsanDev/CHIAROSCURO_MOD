@@ -1,0 +1,12 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mctoolkit_fusion:copper_ore"
+  },
+  "result": {
+    "item": "mctoolkit_fusion:copper_ingot"
+  }
+}

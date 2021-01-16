@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SoulLog"
+      },
+      {
+        "value": "CUSTOM:SoulLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SoulLog"
+      },
+      {
+        "value": "CUSTOM:SoulLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SoulWood"
+    },
+    "name": "soul_wood_recipe",
+    "namespace": "mod"
+  }
+}

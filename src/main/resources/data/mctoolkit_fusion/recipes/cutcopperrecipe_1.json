@@ -1,0 +1,26 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:cooper_block"
+    },
+    "1": {
+      "item": "mctoolkit_fusion:cooper_block"
+    },
+    "2": {
+      "item": "mctoolkit_fusion:cooper_block"
+    },
+    "3": {
+      "item": "mctoolkit_fusion:cooper_block"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:cut_cooper",
+    "count": 4
+  }
+}

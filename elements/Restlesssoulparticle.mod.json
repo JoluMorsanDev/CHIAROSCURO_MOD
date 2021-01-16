@@ -1,0 +1,19 @@
+{
+  "_fv": 15,
+  "_type": "particle",
+  "definition": {
+    "texture": "restlesssoultexture.png",
+    "animate": true,
+    "frameDuration": 2,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 1.5,
+    "speedFactor": 1.0,
+    "gravity": -1.0,
+    "maxAge": 20,
+    "maxAgeDiff": 5,
+    "canCollide": false,
+    "alwaysShow": false,
+    "renderType": "OPAQUE"
+  }
+}

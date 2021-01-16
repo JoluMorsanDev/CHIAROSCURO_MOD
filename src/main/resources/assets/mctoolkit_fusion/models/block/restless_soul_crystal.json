@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mctoolkit_fusion:blocks/restlesssoulcrystal3",
+    "particle": "mctoolkit_fusion:blocks/restlesssoulcrystal3"
+  }
+}

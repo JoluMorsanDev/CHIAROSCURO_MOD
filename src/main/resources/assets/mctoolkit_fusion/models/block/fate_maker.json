@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mctoolkit_fusion:blocks/soulwood_plank",
+    "up": "mctoolkit_fusion:blocks/fatemaker2",
+    "north": "mctoolkit_fusion:blocks/fatemaker1",
+    "east": "mctoolkit_fusion:blocks/fatemaker1",
+    "south": "mctoolkit_fusion:blocks/fatemaker1",
+    "west": "mctoolkit_fusion:blocks/fatemaker1",
+    "particle": "mctoolkit_fusion:blocks/soulwood_plank"
+  }
+}

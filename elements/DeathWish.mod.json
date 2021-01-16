@@ -1,0 +1,22 @@
+{
+  "_fv": 15,
+  "_type": "potion",
+  "definition": {
+    "name": "Death Wish",
+    "effectName": "Death Wish",
+    "icon": "sudcide.png",
+    "color": {
+      "value": -3342337,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "DeathWishOnPotionActiveTick"
+    }
+  }
+}

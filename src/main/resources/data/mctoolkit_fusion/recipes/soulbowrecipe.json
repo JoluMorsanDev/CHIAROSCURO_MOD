@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "addition": {
+    "item": "mctoolkit_fusion:soulcrystalshard"
+  },
+  "result": {
+    "item": "mctoolkit_fusion:soul_bow"
+  }
+}

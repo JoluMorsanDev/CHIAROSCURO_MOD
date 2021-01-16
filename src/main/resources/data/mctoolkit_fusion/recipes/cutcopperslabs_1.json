@@ -1,0 +1,22 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:cut_cooper"
+    },
+    "1": {
+      "item": "mctoolkit_fusion:cut_cooper"
+    },
+    "2": {
+      "item": "mctoolkit_fusion:cut_cooper"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:cut_cooper_slabs",
+    "count": 6
+  }
+}

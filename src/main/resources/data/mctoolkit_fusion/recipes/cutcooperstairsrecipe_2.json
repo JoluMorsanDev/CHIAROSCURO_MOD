@@ -1,0 +1,33 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:lightly_weathered_cut_copper"
+    },
+    "3": {
+      "item": "mctoolkit_fusion:lightly_weathered_cut_copper"
+    },
+    "4": {
+      "item": "mctoolkit_fusion:lightly_weathered_cut_copper"
+    },
+    "6": {
+      "item": "mctoolkit_fusion:lightly_weathered_cut_copper"
+    },
+    "7": {
+      "item": "mctoolkit_fusion:lightly_weathered_cut_copper"
+    },
+    "8": {
+      "item": "mctoolkit_fusion:lightly_weathered_cut_copper"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:lightly_weathered_cooper_stairs",
+    "count": 4
+  }
+}

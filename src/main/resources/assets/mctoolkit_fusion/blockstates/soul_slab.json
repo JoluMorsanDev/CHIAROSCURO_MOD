@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mctoolkit_fusion:block/soul_slab"
+    },
+    "type=top": {
+      "model": "mctoolkit_fusion:block/soul_slab_top"
+    },
+    "type=double": {
+      "model": "mctoolkit_fusion:block/soul_slab_full"
+    }
+  }
+}

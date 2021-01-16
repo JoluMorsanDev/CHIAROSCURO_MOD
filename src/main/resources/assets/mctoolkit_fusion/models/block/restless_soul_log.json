@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mctoolkit_fusion:blocks/restless_soul_log_top_animate",
+    "up": "mctoolkit_fusion:blocks/restless_soul_log_top_animate",
+    "north": "mctoolkit_fusion:blocks/soulwood_log_side",
+    "east": "mctoolkit_fusion:blocks/soulwood_log_side",
+    "south": "mctoolkit_fusion:blocks/soulwood_log_side",
+    "west": "mctoolkit_fusion:blocks/soulwood_log_side",
+    "particle": "mctoolkit_fusion:blocks/restless_soul_log_top_animate"
+  }
+}

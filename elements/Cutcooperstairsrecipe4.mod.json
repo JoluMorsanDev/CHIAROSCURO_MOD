@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WeatheredCutCopper"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WeatheredCutCopper"
+      },
+      {
+        "value": "CUSTOM:WeatheredCutCopper"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WeatheredCutCopper"
+      },
+      {
+        "value": "CUSTOM:WeatheredCutCopper"
+      },
+      {
+        "value": "CUSTOM:WeatheredCutCopper"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WeatheredCooperStairs"
+    },
+    "name": "cutcooperstairsrecipe_4",
+    "namespace": "mod"
+  }
+}

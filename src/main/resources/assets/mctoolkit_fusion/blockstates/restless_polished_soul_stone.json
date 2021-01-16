@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mctoolkit_fusion:block/restless_polished_soul_stone"
+    },
+    "facing=east": {
+      "model": "mctoolkit_fusion:block/restless_polished_soul_stone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mctoolkit_fusion:block/restless_polished_soul_stone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mctoolkit_fusion:block/restless_polished_soul_stone",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mctoolkit_fusion:block/restless_polished_soul_stone",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "mctoolkit_fusion:block/restless_polished_soul_stone",
+      "x": 90
+    }
+  }
+}

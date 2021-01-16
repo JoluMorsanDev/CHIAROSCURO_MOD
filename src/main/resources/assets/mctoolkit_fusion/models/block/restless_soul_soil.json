@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mctoolkit_fusion:blocks/restlesssoulsoil",
+    "particle": "mctoolkit_fusion:blocks/restlesssoulsoil"
+  }
+}

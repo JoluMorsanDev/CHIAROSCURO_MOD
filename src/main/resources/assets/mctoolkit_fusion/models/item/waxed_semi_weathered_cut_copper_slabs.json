@@ -1,0 +1,22 @@
+{
+  "parent": "mctoolkit_fusion:block/waxed_semi_weathered_cut_copper_slabs",
+  "display": {
+    "thirdperson": {
+      "rotation": [
+        10,
+        -45,
+        170
+      ],
+      "translation": [
+        0,
+        1.5,
+        -2.75
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  }
+}

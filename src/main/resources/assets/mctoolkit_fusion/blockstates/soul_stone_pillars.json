@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "mctoolkit_fusion:block/soul_stone_pillars"
+    },
+    "facing=north": {
+      "model": "mctoolkit_fusion:block/soul_stone_pillars"
+    },
+    "facing=east": {
+      "model": "mctoolkit_fusion:block/soul_stone_pillars",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "mctoolkit_fusion:block/soul_stone_pillars",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "mctoolkit_fusion:block/soul_stone_pillars",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "mctoolkit_fusion:block/soul_stone_pillars",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

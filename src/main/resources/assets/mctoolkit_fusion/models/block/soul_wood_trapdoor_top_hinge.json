@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "mctoolkit_fusion:blocks/soulwood_door_bottom",
+    "top": "mctoolkit_fusion:blocks/soulwood_door_top"
+  }
+}

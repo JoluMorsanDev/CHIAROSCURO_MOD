@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mctoolkit_fusion:blocks/spawnertexturebadmadexd",
+    "up": "mctoolkit_fusion:blocks/spawnertexturebadmadexd",
+    "north": "mctoolkit_fusion:blocks/spawnertexturebadmadexd",
+    "east": "mctoolkit_fusion:blocks/spawnertexturebadmadexd",
+    "south": "mctoolkit_fusion:blocks/spawnertexturebadmadexd",
+    "west": "mctoolkit_fusion:blocks/spawnertexturebadmadexd",
+    "particle": "mctoolkit_fusion:blocks/spawnertexturebadmadexd"
+  }
+}

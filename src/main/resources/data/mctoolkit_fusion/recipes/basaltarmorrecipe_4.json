@@ -1,0 +1,39 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:bassaltshards"
+    },
+    "2": {
+      "item": "mctoolkit_fusion:bassaltshards"
+    },
+    "3": {
+      "item": "mctoolkit_fusion:bassaltshards"
+    },
+    "4": {
+      "item": "minecraft:basalt"
+    },
+    "5": {
+      "item": "mctoolkit_fusion:bassaltshards"
+    },
+    "6": {
+      "item": "mctoolkit_fusion:bassaltshards"
+    },
+    "7": {
+      "item": "mctoolkit_fusion:bassaltshards"
+    },
+    "8": {
+      "item": "mctoolkit_fusion:bassaltshards"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:bassaltarmor_chestplate",
+    "count": 1
+  }
+}

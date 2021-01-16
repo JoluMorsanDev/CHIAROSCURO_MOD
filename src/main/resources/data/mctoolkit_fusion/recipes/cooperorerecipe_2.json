@@ -1,0 +1,12 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:blasting",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "mctoolkit_fusion:copper_ore"
+  },
+  "result": {
+    "item": "mctoolkit_fusion:copper_ingot"
+  }
+}

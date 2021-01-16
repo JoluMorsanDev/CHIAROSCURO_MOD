@@ -1,0 +1,12 @@
+{
+  "_fv": 15,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "V",
+    "keyBindingName": "Variable Debug",
+    "keyBindingCategoryKey": "creative",
+    "onKeyPressed": {
+      "name": "Debugguipr"
+    }
+  }
+}

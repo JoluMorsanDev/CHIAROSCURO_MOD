@@ -1,0 +1,16 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mctoolkit_fusion:lightly_weathered_copper_slabs"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "mctoolkit_fusion:lightly_weathered_copper_slabs",
+    "count": 1
+  }
+}

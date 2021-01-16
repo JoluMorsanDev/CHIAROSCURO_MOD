@@ -1,0 +1,20 @@
+{
+  "red_rager_idle": {
+    "category": "hostile",
+    "subtitle": "subtitles.red_rager_idle",
+    "sounds": [
+      {
+        "name": "mctoolkit_fusion:red_rager_idle1",
+        "stream": false
+      },
+      {
+        "name": "mctoolkit_fusion:red_rager_idle2",
+        "stream": false
+      },
+      {
+        "name": "mctoolkit_fusion:red_rager_idle3",
+        "stream": false
+      }
+    ]
+  }
+}

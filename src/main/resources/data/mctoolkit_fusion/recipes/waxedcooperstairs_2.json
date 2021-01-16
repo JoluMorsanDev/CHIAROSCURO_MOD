@@ -1,0 +1,16 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mctoolkit_fusion:lightly_weathered_cooper_stairs"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "mctoolkit_fusion:waxed_lightly_withered_copper_stairs",
+    "count": 1
+  }
+}

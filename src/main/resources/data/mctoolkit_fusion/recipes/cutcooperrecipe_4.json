@@ -1,0 +1,26 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:weathered_copper_block"
+    },
+    "1": {
+      "item": "mctoolkit_fusion:weathered_copper_block"
+    },
+    "2": {
+      "item": "mctoolkit_fusion:weathered_copper_block"
+    },
+    "3": {
+      "item": "mctoolkit_fusion:weathered_copper_block"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:weathered_cut_copper",
+    "count": 4
+  }
+}

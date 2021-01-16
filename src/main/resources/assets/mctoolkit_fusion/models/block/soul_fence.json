@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "mctoolkit_fusion:blocks/soulwood_plank",
+    "particle": "mctoolkit_fusion:blocks/soulwood_plank"
+  }
+}

@@ -1,0 +1,2486 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Soulstone",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soulstone"
+    },
+    {
+      "name": "SoulCoal",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_coal"
+    },
+    {
+      "name": "SoulCoalOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_coal_ore"
+    },
+    {
+      "name": "SoulCoalF",
+      "type": "fuel",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_coal_f"
+    },
+    {
+      "name": "RedRager",
+      "type": "mob",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_rager"
+    },
+    {
+      "name": "RedragersummonOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redragersummon_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soultorch",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soultorch"
+    },
+    {
+      "name": "Soulcrystal3",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soulcrystal_3"
+    },
+    {
+      "name": "Soulcrystalshard",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soulcrystalshard"
+    },
+    {
+      "name": "Bassaltarmor",
+      "type": "armor",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bassaltarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Bassaltshardsrecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bassaltshardsrecipe"
+    },
+    {
+      "name": "Bassaltarmorporcedure",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bassaltarmorporcedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Basaltarmorrecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basaltarmorrecipe"
+    },
+    {
+      "name": "Bassaltshards",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bassaltshards"
+    },
+    {
+      "name": "Basaltarmorrecipe4",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basaltarmorrecipe_4"
+    },
+    {
+      "name": "Basaltarmorrecipe2",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basaltarmorrecipe_2"
+    },
+    {
+      "name": "Basaltarmorrecipe3",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basaltarmorrecipe_3"
+    },
+    {
+      "name": "ColorFire",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "color_fire",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soulcrystalrecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soulcrystalrecipe"
+    },
+    {
+      "name": "RcpBasaltShardstoBasalt",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rcp_basalt_shardsto_basalt"
+    },
+    {
+      "name": "SoulCrystalOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_crystal_ore"
+    },
+    {
+      "name": "SoulWood",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_wood"
+    },
+    {
+      "name": "SoulLog",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_log"
+    },
+    {
+      "name": "SoulPlanks",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_planks"
+    },
+    {
+      "name": "SoulStairs",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_stairs"
+    },
+    {
+      "name": "SoulSlab",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_slab"
+    },
+    {
+      "name": "SoulFence",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_fence"
+    },
+    {
+      "name": "SoulFenceGate",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_fence_gate"
+    },
+    {
+      "name": "SoulItemsTag",
+      "type": "tag",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_items_tag"
+    },
+    {
+      "name": "SoulWoodRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_wood_recipe"
+    },
+    {
+      "name": "SoulPlanksRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_planks_recipe"
+    },
+    {
+      "name": "SoulStairsRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_stairs_recipe"
+    },
+    {
+      "name": "SoulSlabRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_slab_recipe"
+    },
+    {
+      "name": "SoulFenceRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_fence_recipe"
+    },
+    {
+      "name": "SoulFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_fence_gate_recipe"
+    },
+    {
+      "name": "SoulStickRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_stick_recipe"
+    },
+    {
+      "name": "SoulDagger",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_dagger"
+    },
+    {
+      "name": "SoulDaggerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_dagger_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulWoodDoor",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_wood_door"
+    },
+    {
+      "name": "SoulWoodTrapdoor",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_wood_trapdoor"
+    },
+    {
+      "name": "SoulParticle",
+      "type": "particle",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_particle"
+    },
+    {
+      "name": "LingeringSouls",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lingering_souls"
+    },
+    {
+      "name": "Souldoorrecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souldoorrecipe"
+    },
+    {
+      "name": "SoulTrapdoorrecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_trapdoorrecipe"
+    },
+    {
+      "name": "AngerSpore",
+      "type": "mob",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anger_spore"
+    },
+    {
+      "name": "EmitAngerSpores",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emit_anger_spores",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeatheredCopperSlabs",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weathered_copper_slabs"
+    },
+    {
+      "name": "Cutcopperslabs1",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcopperslabs_1"
+    },
+    {
+      "name": "Cutcopperslabs3",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcopperslabs_3"
+    },
+    {
+      "name": "Cutcopperslabs2",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcopperslabs_2"
+    },
+    {
+      "name": "Cutcopperslabs4",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcopperslabs_4"
+    },
+    {
+      "name": "Cutcooperstairsrecipe1",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcooperstairsrecipe_1"
+    },
+    {
+      "name": "Cutcooperstairsrecipe3",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcooperstairsrecipe_3"
+    },
+    {
+      "name": "Cutcooperstairsrecipe2",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcooperstairsrecipe_2"
+    },
+    {
+      "name": "WaxedSemiWeatheredCutCopperSlabs",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_semi_weathered_cut_copper_slabs"
+    },
+    {
+      "name": "RcpBasaltBricks",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rcp_basalt_bricks"
+    },
+    {
+      "name": "Waxedcopperslabs3",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcopperslabs_3"
+    },
+    {
+      "name": "LightlyWeatheredCopperSlabs",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightly_weathered_copper_slabs"
+    },
+    {
+      "name": "Waxedcopperstairsrecipe4",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcopperstairsrecipe_4"
+    },
+    {
+      "name": "WaxedLigthlyCutCopperSlabs",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_ligthly_cut_copper_slabs"
+    },
+    {
+      "name": "WaxedLightlyWeatheredCutCopper",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_lightly_weathered_cut_copper"
+    },
+    {
+      "name": "CutCooperSlabs",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cut_cooper_slabs"
+    },
+    {
+      "name": "BasaltBricks",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "basalt_bricks"
+    },
+    {
+      "name": "WeatheredCutCopper",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weathered_cut_copper"
+    },
+    {
+      "name": "Waxedcopperslabs1",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcopperslabs_1"
+    },
+    {
+      "name": "WaxedLightlyWitheredCopperStairs",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_lightly_withered_copper_stairs"
+    },
+    {
+      "name": "Waxedcopperslabs2",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcopperslabs_2"
+    },
+    {
+      "name": "SemiWeatheredCopperBlock",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "semi_weathered_copper_block"
+    },
+    {
+      "name": "Cutcooperrecipe4",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcooperrecipe_4"
+    },
+    {
+      "name": "LightlyWeatheredCooperStairs",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightly_weathered_cooper_stairs"
+    },
+    {
+      "name": "Cutcooperrecipe3",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcooperrecipe_3"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot"
+    },
+    {
+      "name": "SemiWeatheredCutCopper",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "semi_weathered_cut_copper"
+    },
+    {
+      "name": "Cooperingotrecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooperingotrecipe"
+    },
+    {
+      "name": "CutCooper",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cut_cooper"
+    },
+    {
+      "name": "Waxedcutcooperstairsrecipe5",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcutcooperstairsrecipe_5"
+    },
+    {
+      "name": "WaxedCutCooperStairs",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_cut_cooper_stairs"
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ore"
+    },
+    {
+      "name": "Waxedcutcopperslabs5",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcutcopperslabs_5"
+    },
+    {
+      "name": "Waxedcutcopperslabs6",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcutcopperslabs_6"
+    },
+    {
+      "name": "CooperBlock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooper_block"
+    },
+    {
+      "name": "WeatheredCooperStairs",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weathered_cooper_stairs"
+    },
+    {
+      "name": "Waxedcutcopperslabs4",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcutcopperslabs_4"
+    },
+    {
+      "name": "WaxedSemiWeatheredCopperBlock",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_semi_weathered_copper_block"
+    },
+    {
+      "name": "Cooperblockrecipe2",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooperblockrecipe_2"
+    },
+    {
+      "name": "LightlyWeatheredCutCopper",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightly_weathered_cut_copper"
+    },
+    {
+      "name": "Waxedcooperstairs3",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcooperstairs_3"
+    },
+    {
+      "name": "Waxedcutcopperstairsrecipe6",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcutcopperstairsrecipe_6"
+    },
+    {
+      "name": "CutCooperStairs",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cut_cooper_stairs"
+    },
+    {
+      "name": "WaxedCutCopperSlabs",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_cut_copper_slabs"
+    },
+    {
+      "name": "Waxedcooperstairs1",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcooperstairs_1"
+    },
+    {
+      "name": "Waxedcooperstairs2",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcooperstairs_2"
+    },
+    {
+      "name": "WaxedCutCooper",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_cut_cooper"
+    },
+    {
+      "name": "Copperblockrecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperblockrecipe"
+    },
+    {
+      "name": "Waxedcutcooperrecipe5",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcutcooperrecipe_5"
+    },
+    {
+      "name": "Waxedcooperrecipe3",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcooperrecipe_3"
+    },
+    {
+      "name": "Waxedcooperrecipe2",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcooperrecipe_2"
+    },
+    {
+      "name": "SemiweatheredcutCopperslabs",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "semiweatheredcut_copperslabs"
+    },
+    {
+      "name": "Waxedcooperrecipe1",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcooperrecipe_1"
+    },
+    {
+      "name": "WaxedCopperBlock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_copper_block"
+    },
+    {
+      "name": "WaxedLightlyWeatheredCopperBlock",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_lightly_weathered_copper_block"
+    },
+    {
+      "name": "Waxedcutcooperrecipe1",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcutcooperrecipe_1"
+    },
+    {
+      "name": "SemiWeatheredCutCooperStairs",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "semi_weathered_cut_cooper_stairs"
+    },
+    {
+      "name": "Waxedcutcopperrecipe2",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcutcopperrecipe_2"
+    },
+    {
+      "name": "Waxedcutcopperrecipe3",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcutcopperrecipe_3"
+    },
+    {
+      "name": "WaxedSemiWeatheredCutCopper",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_semi_weathered_cut_copper"
+    },
+    {
+      "name": "Cutcopperrecipe1",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcopperrecipe_1"
+    },
+    {
+      "name": "Cutcopperrecipe2",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcopperrecipe_2"
+    },
+    {
+      "name": "Waxedcutcopperrecipe5",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcutcopperrecipe_5"
+    },
+    {
+      "name": "Waxedcutcooperblockrecipe6",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxedcutcooperblockrecipe_6"
+    },
+    {
+      "name": "WaxedSemiWeatheredCopperStairs",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waxed_semi_weathered_copper_stairs"
+    },
+    {
+      "name": "Cutcooperstairsrecipe4",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cutcooperstairsrecipe_4"
+    },
+    {
+      "name": "LightlyWeatheredCopperBlock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightly_weathered_copper_block"
+    },
+    {
+      "name": "Cooperorerecipe2",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooperorerecipe_2"
+    },
+    {
+      "name": "WeatheredCopperBlock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weathered_copper_block"
+    },
+    {
+      "name": "CutCopperStairs",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cut_copper_stairs",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CutCopperSlabsProcedure",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cut_copper_slabs_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CutCopperProcedure",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cut_copper_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Souldaggerrecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "souldaggerrecipe"
+    },
+    {
+      "name": "Copperblockprocedure",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperblockprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulLogParticleSpawningCondition",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_log_particle_spawning_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulSpawner",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_spawner"
+    },
+    {
+      "name": "SoulSpawnerUpdateTick",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_spawner_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sprit",
+      "type": "mob",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sprit"
+    },
+    {
+      "name": "AngerSporePlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anger_spore_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RagereffectOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ragereffect_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ragereffect",
+      "type": "potion",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ragereffect"
+    },
+    {
+      "name": "RagereffectPotionStartedapplied",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ragereffect_potion_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulTrailParticle",
+      "type": "particle",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_trail_particle"
+    },
+    {
+      "name": "Spritghast",
+      "type": "mob",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spritghast"
+    },
+    {
+      "name": "SoulFireChargeBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_fire_charge_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulFireCharge",
+      "type": "gun",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_fire_charge"
+    },
+    {
+      "name": "SoulFireChargeR",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_fire_charge_r"
+    },
+    {
+      "name": "Soulfirechargeblock",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soulfirechargeblock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soul",
+      "type": "mob",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul"
+    },
+    {
+      "name": "Restlesssoulfirecharge",
+      "type": "gun",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restlesssoulfirecharge"
+    },
+    {
+      "name": "SoulStonePillars",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_stone_pillars"
+    },
+    {
+      "name": "PolishedSoulStone",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_soul_stone"
+    },
+    {
+      "name": "SoulBow",
+      "type": "gun",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_bow"
+    },
+    {
+      "name": "SoulArrow",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_arrow"
+    },
+    {
+      "name": "RestlessPolishedSoulStone",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_polished_soul_stone"
+    },
+    {
+      "name": "RestlessSoulSand",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_sand"
+    },
+    {
+      "name": "RestlessSoulSoil",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_soil"
+    },
+    {
+      "name": "RestlessSoulStonePillar",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_stone_pillar"
+    },
+    {
+      "name": "RestlessSoulLog",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_log"
+    },
+    {
+      "name": "Soulbowrecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soulbowrecipe"
+    },
+    {
+      "name": "VariablesDebugGUI",
+      "type": "gui",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "variables_debug_gui"
+    },
+    {
+      "name": "Soulspawning",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soulspawning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VariableDebug",
+      "type": "keybind",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "variable_debug"
+    },
+    {
+      "name": "RestlessSoulCrystal",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_crystal"
+    },
+    {
+      "name": "RestlessSoulCrystalOre",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_crystal_ore"
+    },
+    {
+      "name": "RestlesSoulCoalOre",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restles_soul_coal_ore"
+    },
+    {
+      "name": "Restlesssoulparticle",
+      "type": "particle",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restlesssoulparticle"
+    },
+    {
+      "name": "Restlessdagerprocedure",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restlessdagerprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RestlessSoulCrystalShard",
+      "type": "item",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_crystal_shard"
+    },
+    {
+      "name": "AshBlock",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ash_block"
+    },
+    {
+      "name": "RestlessSoulCoal",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_coal"
+    },
+    {
+      "name": "RestlessSoulCoalF",
+      "type": "fuel",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_coal_f"
+    },
+    {
+      "name": "Debugguipr",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "debugguipr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playersoulevilnesskill",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "playersoulevilnesskill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RestlessSoulDagger",
+      "type": "tool",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_dagger"
+    },
+    {
+      "name": "RestlessSoulFireChargeR",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_fire_charge_r"
+    },
+    {
+      "name": "PsycheWarper",
+      "type": "mob",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "psyche_warper"
+    },
+    {
+      "name": "RcpPsycheBender",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rcp_psyche_bender"
+    },
+    {
+      "name": "FateMakerGUI",
+      "type": "gui",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fate_maker_gui"
+    },
+    {
+      "name": "FateMaker",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fate_maker"
+    },
+    {
+      "name": "PsycheBender",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "psyche_bender"
+    },
+    {
+      "name": "RestlessSoulArrow",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_arrow"
+    },
+    {
+      "name": "RestlessSoulBow",
+      "type": "gun",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_bow"
+    },
+    {
+      "name": "SoulStoneBrick",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_stone_brick"
+    },
+    {
+      "name": "RestlessSoulStoneBrick",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_stone_brick"
+    },
+    {
+      "name": "RestlessSoulBowBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_bow_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlammableOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flammable_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flammable",
+      "type": "potion",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flammable"
+    },
+    {
+      "name": "DeathWishOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_wish_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeathWish",
+      "type": "potion",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_wish"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Soulevilness",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "red_rager_idle",
+      "files": [
+        "red_rager_idle1",
+        "red_rager_idle2",
+        "red_rager_idle3"
+      ],
+      "category": "hostile",
+      "subtitle": "Red Rager grumbles"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.mctoolkit_fusion.soul_bow": "Soul Bow",
+      "entity.mctoolkit_fusion.anger_spore": "Anger Spore",
+      "block.mctoolkit_fusion.waxed_lightly_withered_copper_stairs": "Waxed Lightly Weathered Cut Copper Stairs",
+      "entity.mctoolkit_fusion.spritghast": "Sprit Ghast",
+      "effect.ragereffect": "Ragereffect",
+      "block.mctoolkit_fusion.restless_polished_soul_stone": "Restless Polished Soul Stone",
+      "block.mctoolkit_fusion.soul_wood": "Soul Wood",
+      "block.mctoolkit_fusion.waxed_lightly_weathered_copper_block": "Waxed Lightly Weathered Copper Block",
+      "block.mctoolkit_fusion.ash_block": "Ash Block",
+      "block.mctoolkit_fusion.semi_weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.soulcrystal_3": "Soul Light ",
+      "item.mctoolkit_fusion.bassaltarmor_chestplate": "Basalt Chestplate",
+      "item.minecraft.potion.effect.ragereffect": "Rager effect",
+      "item.minecraft.tipped_arrow.effect.ragereffect": "Arrow of Rager effect",
+      "block.mctoolkit_fusion.restles_soul_coal_ore": "Restless Soul Coal Ore",
+      "item.minecraft.tipped_arrow.effect.flammable": "Arrow of Flammable",
+      "block.mctoolkit_fusion.soul_wood_trapdoor": "Soul Wood Trapdoor",
+      "item.mctoolkit_fusion.sprit_spawn_egg": "Spirit Spawn Egg",
+      "block.mctoolkit_fusion.soul_log": "Soul Log",
+      "block.mctoolkit_fusion.waxed_ligthly_cut_copper_slabs": "Waxed Lightly Weathered Cut Copper Slab",
+      "item.mctoolkit_fusion.psyche_warper_spawn_egg": "Psyche Warper Spawn Egg",
+      "item.mctoolkit_fusion.red_rager_spawn_egg": "Red Rager Spawn Egg",
+      "block.mctoolkit_fusion.lingering_souls": "Lingering Souls",
+      "item.minecraft.splash_potion.effect.ragereffect": "Splash Rager effect",
+      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
+      "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper": "Waxed Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.soul_fence_gate": "Soul Fence Gate",
+      "block.mctoolkit_fusion.soul_coal_ore": "Soul Coal Ore",
+      "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.restless_soul_crystal_ore": "Embedded Restless Soul Crystals",
+      "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
+      "block.mctoolkit_fusion.soul_wood_door": "Soul Wood Door",
+      "item.minecraft.potion.effect.flammable": "Flammable",
+      "item.mctoolkit_fusion.restless_soul_arrow": "Restless Soul Arrow",
+      "key.mcreator.variable_debug": "Variable Debug",
+      "block.mctoolkit_fusion.cooper_block": "Copper Block",
+      "item.minecraft.tipped_arrow.effect.death_wish": "Arrow of Death Wish",
+      "entity.mctoolkit_fusion.sprit": "Spirit",
+      "block.mctoolkit_fusion.waxed_cut_copper_slabs": "Waxed Cut Copper Slab",
+      "item.mctoolkit_fusion.soulcrystalshard": "Soul Crystal Shard",
+      "item.minecraft.lingering_potion.effect.death_wish": "Lingering Death Wish",
+      "block.mctoolkit_fusion.restless_soul_stone_brick": " Restless Soul Stone Brick",
+      "item.minecraft.lingering_potion.effect.ragereffect": "Lingering Rager effect",
+      "block.mctoolkit_fusion.semiweatheredcut_copperslabs": "Semi-Weathered Cut Copper Slab",
+      "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper_slabs": "Waxed Semi-Weathered Cut Copper Slab",
+      "block.mctoolkit_fusion.polished_soul_stone": "Polished Soul Stone",
+      "item.minecraft.potion.effect.death_wish": "Death Wish",
+      "block.mctoolkit_fusion.waxed_semi_weathered_copper_block": "Waxed Semi-Weathered Copper Block",
+      "entity.mctoolkit_fusion.psyche_warper": "Psyche Warper",
+      "block.mctoolkit_fusion.soul_slab": "Soul Slab",
+      "block.mctoolkit_fusion.semi_weathered_copper_block": "Semi-Weathered Copper Block",
+      "item.mctoolkit_fusion.bassaltshards": "Basalt Shards",
+      "block.mctoolkit_fusion.restless_soul_sand": "Restless Soul Soil",
+      "block.mctoolkit_fusion.restless_soul_soil": "Restless Soul Soil",
+      "block.mctoolkit_fusion.weathered_copper_block": "Weathered Copper Block",
+      "item.minecraft.lingering_potion.effect.flammable": "Lingering Flammable",
+      "effect.death_wish": "Death Wish",
+      "block.mctoolkit_fusion.soul_fence": "Soul Fence",
+      "block.mctoolkit_fusion.fate_maker": "Fate Maker",
+      "item.mctoolkit_fusion.restlesssoulfirecharge": "Soul Fire Charge",
+      "item.mctoolkit_fusion.spritghast_spawn_egg": "Sprit Ghast Spawn Egg",
+      "block.mctoolkit_fusion.lightly_weathered_cooper_stairs": "Lightly Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.weathered_cooper_stairs": "Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.waxed_lightly_weathered_cut_copper": "Waxed Lightly Weathered Cut Copper",
+      "block.mctoolkit_fusion.cut_cooper_slabs": "Cut Copper Slab",
+      "block.mctoolkit_fusion.soul_spawner": "Soul Spawner",
+      "item.mctoolkit_fusion.restless_soul_bow": "Restless Soul Bow",
+      "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
+      "item.mctoolkit_fusion.restless_soul_dagger": "Restless Soul Dagger",
+      "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
+      "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt Leggings",
+      "item.mctoolkit_fusion.anger_spore_spawn_egg": "Anger Spore Spawn Egg",
+      "block.mctoolkit_fusion.waxed_cut_cooper": "Waxed Cut Copper ",
+      "block.mctoolkit_fusion.waxed_copper_block": "Waxed Copper Block",
+      "effect.flammable": "Flammable",
+      "item.minecraft.splash_potion.effect.flammable": "Splash Flammable",
+      "block.mctoolkit_fusion.lightly_weathered_cut_copper": "Lightly Weathered Cut Copper",
+      "item.mctoolkit_fusion.restless_soul_coal": "Restless Soul Coal",
+      "block.mctoolkit_fusion.soulstone": "Soul Stone",
+      "block.mctoolkit_fusion.soul_planks": "Soul Planks",
+      "block.mctoolkit_fusion.semi_weathered_cut_cooper_stairs": "Semi-Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.lightly_weathered_copper_block": "Lightly Weathered Copper Block",
+      "item.mctoolkit_fusion.soul_spawn_egg": "Soul Spawn Egg",
+      "block.mctoolkit_fusion.lightly_weathered_copper_slabs": "Lightly Weathered Cut Copper Slab",
+      "item.mctoolkit_fusion.soul_arrow": "Soul Arrow",
+      "item.mctoolkit_fusion.soul_coal": "Soul Coal",
+      "entity.mctoolkit_fusion.soul": "Soul",
+      "block.mctoolkit_fusion.weathered_cut_copper": "Weathered Cut Copper",
+      "block.mctoolkit_fusion.cut_cooper_stairs": "Cut Copper Stairs",
+      "block.mctoolkit_fusion.cut_cooper": "Cut Copper ",
+      "subtitles.red_rager_idle": "Red Rager grumbles",
+      "block.mctoolkit_fusion.basalt_bricks": "Basalt Bricks",
+      "item.mctoolkit_fusion.soul_dagger": "Soul Dagger",
+      "item.mctoolkit_fusion.soul_fire_charge": "Soul Fire Charge",
+      "item.mctoolkit_fusion.restless_soul_crystal_shard": "Restless Soul Crystal Shard",
+      "block.mctoolkit_fusion.soul_stone_brick": "Soul Stone Brick",
+      "block.mctoolkit_fusion.restless_soul_log": "Restless Soul Log",
+      "item.mctoolkit_fusion.psyche_bender": "Psyche Bender",
+      "block.mctoolkit_fusion.restless_soul_stone_pillar": "Restless Soul Stone Pillar",
+      "block.mctoolkit_fusion.copper_ore": "Copper Ore",
+      "entity.mctoolkit_fusion.red_rager": "Red Rager",
+      "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt Helmet",
+      "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",
+      "item.mctoolkit_fusion.bassaltarmor_boots": "Basalt Boots",
+      "block.mctoolkit_fusion.weathered_copper_slabs": "Weathered Cut Copper Slab",
+      "block.mctoolkit_fusion.restless_soul_crystal": "Restless Soul Light ",
+      "block.mctoolkit_fusion.waxed_cut_cooper_stairs": "Waxed Cut Copper Stairs"
+    },
+    "es_mx": {
+      "item.mctoolkit_fusion.soul_bow": "Soul Bow",
+      "entity.mctoolkit_fusion.anger_spore": "Anger Spore",
+      "block.mctoolkit_fusion.waxed_lightly_withered_copper_stairs": "Waxed Lightly Weathered Cut Copper",
+      "effect.ragereffect": "Ragereffect",
+      "entity.mctoolkit_fusion.spritghast": "Spritghast",
+      "block.mctoolkit_fusion.restless_polished_soul_stone": "Polished Soul Stone",
+      "block.mctoolkit_fusion.soul_wood": "Soul Wood",
+      "block.mctoolkit_fusion.waxed_lightly_weathered_copper_block": "Lightly Weathered Copper Block",
+      "block.mctoolkit_fusion.ash_block": "Ash Block",
+      "block.mctoolkit_fusion.semi_weathered_cut_copper": "Lightly Weathered Cut Copper",
+      "block.mctoolkit_fusion.soulcrystal_3": "Cristal de alma",
+      "item.mctoolkit_fusion.bassaltarmor_chestplate": "Basalt armor Body",
+      "block.mctoolkit_fusion.soulcrystal_1": "Cristal de alma",
+      "item.minecraft.potion.effect.ragereffect": "Rager effect",
+      "item.minecraft.tipped_arrow.effect.ragereffect": "Arrow of Rager effect",
+      "block.mctoolkit_fusion.soulcrystal_0": "Cristal de alma",
+      "block.mctoolkit_fusion.restles_soul_coal_ore": "Soul Coal Ore",
+      "item.minecraft.tipped_arrow.effect.flammable": "Arrow of Flammable",
+      "block.mctoolkit_fusion.soul_wood_trapdoor": "Soul Wood Door",
+      "item.mctoolkit_fusion.sprit_spawn_egg": "Sprit Spawn Egg",
+      "block.mctoolkit_fusion.soul_log": "Soul Log",
+      "block.mctoolkit_fusion.waxed_ligthly_cut_copper_slabs": "Waxed Lightly Weathered Cut Copper Stairs",
+      "item.mctoolkit_fusion.psyche_warper_spawn_egg": "Psyche Warper Spawn Egg",
+      "item.mctoolkit_fusion.red_rager_spawn_egg": "Generador de Ira roja",
+      "block.mctoolkit_fusion.lingering_souls": "Lingering Souls",
+      "item.minecraft.splash_potion.effect.ragereffect": "Splash Rager effect",
+      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
+      "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.soul_fence_gate": "Soul Fence Gate",
+      "block.mctoolkit_fusion.soul_coal_ore": "Mineral de carbon de alma",
+      "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.restless_soul_crystal_ore": "Embedded Soul Crystals",
+      "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
+      "block.mctoolkit_fusion.soul_wood_door": "Soul Wood Door",
+      "item.minecraft.potion.effect.flammable": "Flammable",
+      "item.mctoolkit_fusion.restless_soul_arrow": "Restless Soul Arrow",
+      "key.mcreator.variable_debug": "Variable Debug",
+      "block.mctoolkit_fusion.cooper_block": "Cooper Block",
+      "item.minecraft.tipped_arrow.effect.death_wish": "Arrow of Death Wish",
+      "entity.mctoolkit_fusion.sprit": "Sprit",
+      "block.mctoolkit_fusion.waxed_cut_copper_slabs": "Waxed Cut Cooper ",
+      "item.mctoolkit_fusion.soulcrystalshard": "Gema de alma",
+      "item.minecraft.lingering_potion.effect.death_wish": "Lingering Death Wish",
+      "block.mctoolkit_fusion.restless_soul_stone_brick": "Soul Stone Brick",
+      "item.minecraft.lingering_potion.effect.ragereffect": "Lingering Rager effect",
+      "block.mctoolkit_fusion.semiweatheredcut_copperslabs": "Semi-Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper_slabs": "Waxed Semi-Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.polished_soul_stone": "Soul Stone Pillars",
+      "item.minecraft.potion.effect.death_wish": "Death Wish",
+      "block.mctoolkit_fusion.waxed_semi_weathered_copper_block": "Semi-Weathered Copper Block",
+      "entity.mctoolkit_fusion.psyche_warper": "Psyche Warper",
+      "block.mctoolkit_fusion.soul_slab": "Soul Slab",
+      "block.mctoolkit_fusion.semi_weathered_copper_block": "Lightly Weathered Copper Block",
+      "item.mctoolkit_fusion.bassaltshards": "Basalt shards",
+      "block.mctoolkit_fusion.restless_soul_sand": "Restless Soul Soil",
+      "block.mctoolkit_fusion.restless_soul_soil": "Restless Soul Soil",
+      "block.mctoolkit_fusion.weathered_copper_block": "Semi-Weathered Copper Block",
+      "item.minecraft.lingering_potion.effect.flammable": "Lingering Flammable",
+      "effect.death_wish": "Death Wish",
+      "block.mctoolkit_fusion.soul_fence": "Soul Fence",
+      "block.mctoolkit_fusion.fate_maker": "Fate Maker",
+      "item.mctoolkit_fusion.restlesssoulfirecharge": "Soul Fire Charge",
+      "item.mctoolkit_fusion.spritghast_spawn_egg": "Spritghast Spawn Egg",
+      "block.mctoolkit_fusion.lightly_weathered_cooper_stairs": "Lightly Weathered Cut Copper",
+      "block.mctoolkit_fusion.weathered_cooper_stairs": "Weathered Cut Copper",
+      "block.mctoolkit_fusion.waxed_lightly_weathered_cut_copper": "Lightly Weathered Cut Copper",
+      "block.mctoolkit_fusion.cut_cooper_slabs": "Cut Copper Stairs",
+      "block.mctoolkit_fusion.soul_spawner": "Soul Spawner",
+      "item.mctoolkit_fusion.restless_soul_bow": "Restless Soul Bow",
+      "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
+      "item.mctoolkit_fusion.restless_soul_dagger": "Soul Dagger",
+      "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
+      "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt armor Leggings",
+      "item.mctoolkit_fusion.anger_spore_spawn_egg": "Anger Spore Spawn Egg",
+      "block.mctoolkit_fusion.waxed_copper_block": "Cooper Block",
+      "block.mctoolkit_fusion.waxed_cut_cooper": "Cut Cooper ",
+      "effect.flammable": "Flammable",
+      "item.minecraft.splash_potion.effect.flammable": "Splash Flammable",
+      "block.mctoolkit_fusion.lightly_weathered_cut_copper": "Cut Cooper ",
+      "item.mctoolkit_fusion.restless_soul_coal": "Soul Coal",
+      "block.mctoolkit_fusion.soulstone": "Piedra de almas",
+      "block.mctoolkit_fusion.soul_planks": "Soul Planks",
+      "block.mctoolkit_fusion.semi_weathered_cut_cooper_stairs": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.lightly_weathered_copper_block": "Cooper Block",
+      "item.mctoolkit_fusion.soul_spawn_egg": "Soul Spawn Egg",
+      "block.mctoolkit_fusion.lightly_weathered_copper_slabs": "Lightly Weathered Cut Copper Stairs",
+      "item.mctoolkit_fusion.soul_arrow": "Soul Arrow",
+      "item.mctoolkit_fusion.soul_coal": "Carbon de almas",
+      "entity.mctoolkit_fusion.soul": "Soul",
+      "block.mctoolkit_fusion.weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.cut_cooper_stairs": "Cut Cooper ",
+      "block.mctoolkit_fusion.cut_cooper": "Weathered Copper Block",
+      "subtitles.red_rager_idle": "Red Rager grumbles",
+      "block.mctoolkit_fusion.basalt_bricks": "Basalt Bricks",
+      "item.mctoolkit_fusion.soul_dagger": "Soul Dagger",
+      "item.mctoolkit_fusion.soul_fire_charge": "Soul Fire Charge",
+      "item.mctoolkit_fusion.restless_soul_crystal_shard": "Soul Crystal Shard",
+      "block.mctoolkit_fusion.soul_stone_brick": "Soul Stone Brick",
+      "item.mctoolkit_fusion.psyche_bender": "Psyche Bender",
+      "block.mctoolkit_fusion.restless_soul_log": "Restless Soul Log",
+      "block.mctoolkit_fusion.restless_soul_stone_pillar": "Restless Soul Stone Pillar",
+      "block.mctoolkit_fusion.copper_ore": "Copper Ore",
+      "entity.mctoolkit_fusion.red_rager": "Ira roja",
+      "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt armor Helmet",
+      "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",
+      "item.mctoolkit_fusion.soulwoodstick": "Soul wood stick",
+      "item.mctoolkit_fusion.bassaltarmor_boots": "Basalt armor Boots",
+      "block.mctoolkit_fusion.weathered_copper_slabs": "Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.restless_soul_crystal": "Soul Light ",
+      "block.mctoolkit_fusion.waxed_cut_cooper_stairs": "Waxed Cut Cooper "
+    },
+    "es_es": {
+      "item.mctoolkit_fusion.soul_bow": "Soul Bow",
+      "entity.mctoolkit_fusion.anger_spore": "Anger Spore",
+      "block.mctoolkit_fusion.waxed_lightly_withered_copper_stairs": "Waxed Lightly Weathered Cut Copper",
+      "effect.ragereffect": "Ragereffect",
+      "entity.mctoolkit_fusion.spritghast": "Spritghast",
+      "block.mctoolkit_fusion.restless_polished_soul_stone": "Polished Soul Stone",
+      "block.mctoolkit_fusion.soul_wood": "Soul Wood",
+      "block.mctoolkit_fusion.waxed_lightly_weathered_copper_block": "Lightly Weathered Copper Block",
+      "block.mctoolkit_fusion.ash_block": "Ash Block",
+      "block.mctoolkit_fusion.semi_weathered_cut_copper": "Lightly Weathered Cut Copper",
+      "block.mctoolkit_fusion.soulcrystal_3": "Soul crystal ",
+      "item.mctoolkit_fusion.bassaltarmor_chestplate": "Basalt armor Body",
+      "block.mctoolkit_fusion.soulcrystal_1": "Soul crystal ",
+      "item.minecraft.potion.effect.ragereffect": "Rager effect",
+      "item.minecraft.tipped_arrow.effect.ragereffect": "Arrow of Rager effect",
+      "block.mctoolkit_fusion.soulcrystal_0": "Soul crystal ",
+      "block.mctoolkit_fusion.restles_soul_coal_ore": "Soul Coal Ore",
+      "item.minecraft.tipped_arrow.effect.flammable": "Arrow of Flammable",
+      "block.mctoolkit_fusion.soul_wood_trapdoor": "Soul Wood Door",
+      "item.mctoolkit_fusion.sprit_spawn_egg": "Sprit Spawn Egg",
+      "block.mctoolkit_fusion.soul_log": "Soul Log",
+      "block.mctoolkit_fusion.waxed_ligthly_cut_copper_slabs": "Waxed Lightly Weathered Cut Copper Stairs",
+      "item.mctoolkit_fusion.psyche_warper_spawn_egg": "Psyche Warper Spawn Egg",
+      "item.mctoolkit_fusion.red_rager_spawn_egg": "Generador de Rabia roja",
+      "block.mctoolkit_fusion.lingering_souls": "Lingering Souls",
+      "item.minecraft.splash_potion.effect.ragereffect": "Splash Rager effect",
+      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
+      "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.soul_fence_gate": "Soul Fence Gate",
+      "block.mctoolkit_fusion.soul_coal_ore": "Mineral de carbon de alma",
+      "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.restless_soul_crystal_ore": "Embedded Soul Crystals",
+      "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
+      "block.mctoolkit_fusion.soul_wood_door": "Soul Wood Door",
+      "item.minecraft.potion.effect.flammable": "Flammable",
+      "item.mctoolkit_fusion.restless_soul_arrow": "Restless Soul Arrow",
+      "key.mcreator.variable_debug": "Variable Debug",
+      "block.mctoolkit_fusion.cooper_block": "Cooper Block",
+      "item.minecraft.tipped_arrow.effect.death_wish": "Arrow of Death Wish",
+      "entity.mctoolkit_fusion.sprit": "Sprit",
+      "block.mctoolkit_fusion.waxed_cut_copper_slabs": "Waxed Cut Cooper ",
+      "item.mctoolkit_fusion.soulcrystalshard": "Sou lcrystal shard",
+      "item.minecraft.lingering_potion.effect.death_wish": "Lingering Death Wish",
+      "block.mctoolkit_fusion.restless_soul_stone_brick": "Soul Stone Brick",
+      "item.minecraft.lingering_potion.effect.ragereffect": "Lingering Rager effect",
+      "block.mctoolkit_fusion.semiweatheredcut_copperslabs": "Semi-Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper_slabs": "Waxed Semi-Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.polished_soul_stone": "Soul Stone Pillars",
+      "item.minecraft.potion.effect.death_wish": "Death Wish",
+      "block.mctoolkit_fusion.waxed_semi_weathered_copper_block": "Semi-Weathered Copper Block",
+      "entity.mctoolkit_fusion.psyche_warper": "Psyche Warper",
+      "block.mctoolkit_fusion.soul_slab": "Soul Slab",
+      "block.mctoolkit_fusion.semi_weathered_copper_block": "Lightly Weathered Copper Block",
+      "item.mctoolkit_fusion.bassaltshards": "Basalt shards",
+      "block.mctoolkit_fusion.restless_soul_sand": "Restless Soul Soil",
+      "block.mctoolkit_fusion.restless_soul_soil": "Restless Soul Soil",
+      "block.mctoolkit_fusion.weathered_copper_block": "Semi-Weathered Copper Block",
+      "item.minecraft.lingering_potion.effect.flammable": "Lingering Flammable",
+      "effect.death_wish": "Death Wish",
+      "block.mctoolkit_fusion.soul_fence": "Soul Fence",
+      "block.mctoolkit_fusion.fate_maker": "Fate Maker",
+      "item.mctoolkit_fusion.restlesssoulfirecharge": "Soul Fire Charge",
+      "item.mctoolkit_fusion.spritghast_spawn_egg": "Spritghast Spawn Egg",
+      "block.mctoolkit_fusion.lightly_weathered_cooper_stairs": "Lightly Weathered Cut Copper",
+      "block.mctoolkit_fusion.weathered_cooper_stairs": "Weathered Cut Copper",
+      "block.mctoolkit_fusion.waxed_lightly_weathered_cut_copper": "Lightly Weathered Cut Copper",
+      "block.mctoolkit_fusion.cut_cooper_slabs": "Cut Copper Stairs",
+      "block.mctoolkit_fusion.soul_spawner": "Soul Spawner",
+      "item.mctoolkit_fusion.restless_soul_bow": "Restless Soul Bow",
+      "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
+      "item.mctoolkit_fusion.restless_soul_dagger": "Soul Dagger",
+      "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
+      "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt armor Leggings",
+      "item.mctoolkit_fusion.anger_spore_spawn_egg": "Anger Spore Spawn Egg",
+      "block.mctoolkit_fusion.waxed_copper_block": "Cooper Block",
+      "block.mctoolkit_fusion.waxed_cut_cooper": "Cut Cooper ",
+      "effect.flammable": "Flammable",
+      "item.minecraft.splash_potion.effect.flammable": "Splash Flammable",
+      "block.mctoolkit_fusion.lightly_weathered_cut_copper": "Cut Cooper ",
+      "item.mctoolkit_fusion.restless_soul_coal": "Soul Coal",
+      "block.mctoolkit_fusion.soulstone": "Piedra de almas",
+      "block.mctoolkit_fusion.soul_planks": "Soul Planks",
+      "block.mctoolkit_fusion.semi_weathered_cut_cooper_stairs": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.lightly_weathered_copper_block": "Cooper Block",
+      "item.mctoolkit_fusion.soul_spawn_egg": "Soul Spawn Egg",
+      "block.mctoolkit_fusion.lightly_weathered_copper_slabs": "Lightly Weathered Cut Copper Stairs",
+      "item.mctoolkit_fusion.soul_arrow": "Soul Arrow",
+      "item.mctoolkit_fusion.soul_coal": "Carbon de alma",
+      "entity.mctoolkit_fusion.soul": "Soul",
+      "block.mctoolkit_fusion.weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.cut_cooper_stairs": "Cut Cooper ",
+      "block.mctoolkit_fusion.cut_cooper": "Weathered Copper Block",
+      "subtitles.red_rager_idle": "Red Rager grumbles",
+      "block.mctoolkit_fusion.basalt_bricks": "Basalt Bricks",
+      "item.mctoolkit_fusion.soul_dagger": "Soul Dagger",
+      "item.mctoolkit_fusion.soul_fire_charge": "Soul Fire Charge",
+      "item.mctoolkit_fusion.restless_soul_crystal_shard": "Soul Crystal Shard",
+      "block.mctoolkit_fusion.soul_stone_brick": "Soul Stone Brick",
+      "item.mctoolkit_fusion.psyche_bender": "Psyche Bender",
+      "block.mctoolkit_fusion.restless_soul_log": "Restless Soul Log",
+      "block.mctoolkit_fusion.restless_soul_stone_pillar": "Restless Soul Stone Pillar",
+      "block.mctoolkit_fusion.copper_ore": "Copper Ore",
+      "entity.mctoolkit_fusion.red_rager": "Rabia roja",
+      "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt armor Helmet",
+      "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",
+      "item.mctoolkit_fusion.soulwoodstick": "Soul wood stick",
+      "item.mctoolkit_fusion.bassaltarmor_boots": "Basalt armor Boots",
+      "block.mctoolkit_fusion.weathered_copper_slabs": "Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.restless_soul_crystal": "Soul Light ",
+      "block.mctoolkit_fusion.waxed_cut_cooper_stairs": "Waxed Cut Cooper "
+    },
+    "zh_cn": {
+      "item.mctoolkit_fusion.soul_bow": "Soul Bow",
+      "entity.mctoolkit_fusion.anger_spore": "Anger Spore",
+      "block.mctoolkit_fusion.waxed_lightly_withered_copper_stairs": "Waxed Lightly Weathered Cut Copper",
+      "effect.ragereffect": "Ragereffect",
+      "entity.mctoolkit_fusion.spritghast": "Spritghast",
+      "block.mctoolkit_fusion.restless_polished_soul_stone": "Polished Soul Stone",
+      "block.mctoolkit_fusion.soul_wood": "Soul Wood",
+      "block.mctoolkit_fusion.waxed_lightly_weathered_copper_block": "Lightly Weathered Copper Block",
+      "block.mctoolkit_fusion.ash_block": "Ash Block",
+      "block.mctoolkit_fusion.semi_weathered_cut_copper": "Lightly Weathered Cut Copper",
+      "block.mctoolkit_fusion.soulcrystal_3": "鬼晶",
+      "item.mctoolkit_fusion.bassaltarmor_chestplate": "Basalt Chestplate",
+      "block.mctoolkit_fusion.soulcrystal_1": "Soul Crystal ",
+      "item.minecraft.potion.effect.ragereffect": "Rager effect",
+      "item.minecraft.tipped_arrow.effect.ragereffect": "Arrow of Rager effect",
+      "block.mctoolkit_fusion.soulcrystal_0": "Soul Crystal ",
+      "block.mctoolkit_fusion.restles_soul_coal_ore": "Soul Coal Ore",
+      "item.minecraft.tipped_arrow.effect.flammable": "Arrow of Flammable",
+      "block.mctoolkit_fusion.soul_wood_trapdoor": "Soul Wood Door",
+      "item.mctoolkit_fusion.sprit_spawn_egg": "Sprit Spawn Egg",
+      "block.mctoolkit_fusion.soul_log": "Soul Log",
+      "block.mctoolkit_fusion.waxed_ligthly_cut_copper_slabs": "Waxed Lightly Weathered Cut Copper Stairs",
+      "item.mctoolkit_fusion.psyche_warper_spawn_egg": "Psyche Warper Spawn Egg",
+      "item.mctoolkit_fusion.red_rager_spawn_egg": "怒气红红刷怪蛋",
+      "block.mctoolkit_fusion.lingering_souls": "Lingering Souls",
+      "item.minecraft.splash_potion.effect.ragereffect": "Splash Rager effect",
+      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
+      "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.soul_fence_gate": "Soul Fence Gate",
+      "block.mctoolkit_fusion.soul_coal_ore": "鬼煤矿石",
+      "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.restless_soul_crystal_ore": "Embedded Soul Crystals",
+      "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
+      "block.mctoolkit_fusion.soul_wood_door": "Soul Wood Door",
+      "item.minecraft.potion.effect.flammable": "Flammable",
+      "item.mctoolkit_fusion.restless_soul_arrow": "Restless Soul Arrow",
+      "key.mcreator.variable_debug": "Variable Debug",
+      "block.mctoolkit_fusion.cooper_block": "Cooper Block",
+      "item.minecraft.tipped_arrow.effect.death_wish": "Arrow of Death Wish",
+      "entity.mctoolkit_fusion.sprit": "Sprit",
+      "block.mctoolkit_fusion.waxed_cut_copper_slabs": "Waxed Cut Cooper ",
+      "item.mctoolkit_fusion.soulcrystalshard": "鬼晶碎片",
+      "item.minecraft.lingering_potion.effect.death_wish": "Lingering Death Wish",
+      "block.mctoolkit_fusion.restless_soul_stone_brick": "Soul Stone Brick",
+      "item.minecraft.lingering_potion.effect.ragereffect": "Lingering Rager effect",
+      "block.mctoolkit_fusion.semiweatheredcut_copperslabs": "Semi-Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper_slabs": "Waxed Semi-Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.polished_soul_stone": "Soul Stone Pillars",
+      "item.minecraft.potion.effect.death_wish": "Death Wish",
+      "block.mctoolkit_fusion.waxed_semi_weathered_copper_block": "Semi-Weathered Copper Block",
+      "entity.mctoolkit_fusion.psyche_warper": "Psyche Warper",
+      "block.mctoolkit_fusion.soul_slab": "Soul Slab",
+      "block.mctoolkit_fusion.semi_weathered_copper_block": "Lightly Weathered Copper Block",
+      "item.mctoolkit_fusion.bassaltshards": "玄武岩碎片",
+      "block.mctoolkit_fusion.restless_soul_sand": "Restless Soul Soil",
+      "block.mctoolkit_fusion.restless_soul_soil": "Restless Soul Soil",
+      "block.mctoolkit_fusion.weathered_copper_block": "Semi-Weathered Copper Block",
+      "item.minecraft.lingering_potion.effect.flammable": "Lingering Flammable",
+      "effect.death_wish": "Death Wish",
+      "block.mctoolkit_fusion.soul_fence": "Soul Fence",
+      "block.mctoolkit_fusion.fate_maker": "Fate Maker",
+      "item.mctoolkit_fusion.restlesssoulfirecharge": "Soul Fire Charge",
+      "item.mctoolkit_fusion.spritghast_spawn_egg": "Spritghast Spawn Egg",
+      "block.mctoolkit_fusion.lightly_weathered_cooper_stairs": "Lightly Weathered Cut Copper",
+      "block.mctoolkit_fusion.weathered_cooper_stairs": "Weathered Cut Copper",
+      "block.mctoolkit_fusion.waxed_lightly_weathered_cut_copper": "Lightly Weathered Cut Copper",
+      "block.mctoolkit_fusion.cut_cooper_slabs": "Cut Copper Stairs",
+      "block.mctoolkit_fusion.soul_spawner": "Soul Spawner",
+      "item.mctoolkit_fusion.restless_soul_bow": "Restless Soul Bow",
+      "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
+      "item.mctoolkit_fusion.restless_soul_dagger": "Soul Dagger",
+      "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
+      "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt Leggings",
+      "item.mctoolkit_fusion.anger_spore_spawn_egg": "Anger Spore Spawn Egg",
+      "block.mctoolkit_fusion.waxed_copper_block": "Cooper Block",
+      "block.mctoolkit_fusion.waxed_cut_cooper": "Cut Cooper ",
+      "effect.flammable": "Flammable",
+      "item.minecraft.splash_potion.effect.flammable": "Splash Flammable",
+      "block.mctoolkit_fusion.lightly_weathered_cut_copper": "Cut Cooper ",
+      "item.mctoolkit_fusion.restless_soul_coal": "Soul Coal",
+      "block.mctoolkit_fusion.soulstone": "鬼石",
+      "block.mctoolkit_fusion.soul_planks": "Soul Planks",
+      "block.mctoolkit_fusion.semi_weathered_cut_cooper_stairs": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.lightly_weathered_copper_block": "Cooper Block",
+      "item.mctoolkit_fusion.soul_spawn_egg": "Soul Spawn Egg",
+      "block.mctoolkit_fusion.lightly_weathered_copper_slabs": "Lightly Weathered Cut Copper Stairs",
+      "item.mctoolkit_fusion.soul_arrow": "Soul Arrow",
+      "item.mctoolkit_fusion.soul_coal": "鬼煤",
+      "entity.mctoolkit_fusion.soul": "Soul",
+      "block.mctoolkit_fusion.weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.cut_cooper_stairs": "Cut Cooper ",
+      "block.mctoolkit_fusion.cut_cooper": "Weathered Copper Block",
+      "subtitles.red_rager_idle": "Red Rager grumbles",
+      "block.mctoolkit_fusion.basalt_bricks": "Basalt Bricks",
+      "item.mctoolkit_fusion.soul_dagger": "Soul Dagger",
+      "item.mctoolkit_fusion.soul_fire_charge": "Soul Fire Charge",
+      "item.mctoolkit_fusion.restless_soul_crystal_shard": "Soul Crystal Shard",
+      "block.mctoolkit_fusion.soul_stone_brick": "Soul Stone Brick",
+      "item.mctoolkit_fusion.psyche_bender": "Psyche Bender",
+      "block.mctoolkit_fusion.restless_soul_log": "Restless Soul Log",
+      "block.mctoolkit_fusion.restless_soul_stone_pillar": "Restless Soul Stone Pillar",
+      "block.mctoolkit_fusion.copper_ore": "Copper Ore",
+      "entity.mctoolkit_fusion.red_rager": "怒气红红",
+      "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt Helmet",
+      "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",
+      "item.mctoolkit_fusion.soulwoodstick": "Soul wood stick",
+      "item.mctoolkit_fusion.bassaltarmor_boots": "Basalt Boots",
+      "block.mctoolkit_fusion.weathered_copper_slabs": "Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.restless_soul_crystal": "Soul Light ",
+      "block.mctoolkit_fusion.waxed_cut_cooper_stairs": "Waxed Cut Cooper "
+    }
+  },
+  "workspaceSettings": {
+    "modid": "mctoolkit_fusion",
+    "modName": "MCtoolkit Fusion",
+    "version": "1.0.0",
+    "author": "Guadalupe, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.mctoolkitfusion",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000652319
+}

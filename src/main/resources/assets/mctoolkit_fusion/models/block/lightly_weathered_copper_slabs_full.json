@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "mctoolkit_fusion:blocks/lightly_weathered_cut_copper",
+    "top": "mctoolkit_fusion:blocks/lightly_weathered_cut_copper",
+    "side": "mctoolkit_fusion:blocks/lightly_weathered_cut_copper"
+  }
+}

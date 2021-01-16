@@ -1,0 +1,13 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:soul_log"
+    }
+  ],
+  "result": {
+    "item": "mctoolkit_fusion:soul_planks",
+    "count": 4
+  }
+}

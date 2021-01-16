@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mctoolkit_fusion:blocks/soul_coal_ore_beta1",
+    "particle": "mctoolkit_fusion:blocks/soul_coal_ore_beta1"
+  }
+}
