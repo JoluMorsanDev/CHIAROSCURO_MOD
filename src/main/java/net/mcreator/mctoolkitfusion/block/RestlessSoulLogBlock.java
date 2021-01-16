@@ -14,7 +14,6 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.Direction;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
-import net.minecraft.particles.ParticleTypes;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -31,6 +30,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.mctoolkitfusion.procedures.SoulLogParticleSpawningConditionProcedure;
+import net.mcreator.mctoolkitfusion.particle.RestlesssoulparticleParticle;
 import net.mcreator.mctoolkitfusion.MctoolkitFusionModElements;
 
 import java.util.Random;
@@ -122,7 +122,7 @@ public class RestlessSoulLogBlock extends MctoolkitFusionModElements.ModElement 
 					double d0 = (double) ((float) x + 0.5) + (double) (random.nextFloat() - 0.5) * 0.5D;
 					double d1 = ((double) ((float) y + 0.7) + (double) (random.nextFloat() - 0.5) * 0.5D) + 0.5;
 					double d2 = (double) ((float) z + 0.5) + (double) (random.nextFloat() - 0.5) * 0.5D;
-					world.addParticle(ParticleTypes.SOUL, d0, d1, d2, 0, 0, 0);
+					world.addParticle(RestlesssoulparticleParticle.particle, d0, d1, d2, 0, 0, 0);
 				}
 		}
 	}

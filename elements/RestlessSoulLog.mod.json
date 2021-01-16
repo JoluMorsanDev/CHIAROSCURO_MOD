@@ -69,7 +69,7 @@
     "breakHarvestLevel": 0,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "SOUL"
+      "value": "CUSTOM:Restlesssoulparticle"
     },
     "particleSpawningShape": "Top",
     "particleSpawningRadious": 0.5,

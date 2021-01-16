@@ -25,7 +25,7 @@ public class RestlessSoulArrowItem extends MctoolkitFusionModElements.ModElement
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("restless_soul_arrow");
 		}
 

@@ -62,10 +62,14 @@ public class DeathWishOnPotionActiveTickProcedure extends MctoolkitFusionModElem
 							.getDefaultState().getBlock())
 							|| ((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz))))).getBlock() == Blocks.LAVA
 									.getDefaultState().getBlock()))
-							|| (((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz))))).getBlock() == Blocks.FIRE
+							|| ((((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz))))).getBlock() == Blocks.FIRE
 									.getDefaultState().getBlock())
 									|| ((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz)))))
-											.getBlock() == Blocks.SOUL_FIRE.getDefaultState().getBlock())))
+											.getBlock() == Blocks.SOUL_FIRE.getDefaultState().getBlock()))
+									|| (((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz)))))
+											.getBlock() == Blocks.SWEET_BERRY_BUSH.getDefaultState().getBlock())
+											|| ((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz)))))
+													.getBlock() == Blocks.WITHER_ROSE.getDefaultState().getBlock()))))
 							|| ((((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz)))))
 									.getBlock() == Blocks.CAMPFIRE.getDefaultState().getBlock())
 									|| ((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz)))))
