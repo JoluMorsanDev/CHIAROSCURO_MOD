@@ -91,6 +91,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "RestlessSoulFireUpdateTick"
+    },
     "onEntityCollides": {
       "name": "RestlessSoulFireEntityCollidesInTheBlock"
     },

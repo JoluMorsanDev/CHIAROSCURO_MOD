@@ -1,11 +1,36 @@
 package net.mcreator.mctoolkitfusion.procedures;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.living.LivingAttackEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.DamageSource;
+import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.SpawnReason;
+import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.ILivingEntityData;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.mctoolkitfusion.entity.RedRagerEntity;
+import net.mcreator.mctoolkitfusion.MctoolkitFusionModElements;
+import net.mcreator.mctoolkitfusion.MctoolkitFusionMod;
+
+import java.util.stream.Collectors;
+import java.util.function.Function;
+import java.util.Map;
+import java.util.List;
+import java.util.HashMap;
+import java.util.Comparator;
+
 @MctoolkitFusionModElements.ModElement.Tag
 public class AttackingPlayerWithAbilityProcedure extends MctoolkitFusionModElements.ModElement {
-
 	public AttackingPlayerWithAbilityProcedure(MctoolkitFusionModElements instance) {
 		super(instance, 167);
-
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -40,23 +65,19 @@ public class AttackingPlayerWithAbilityProcedure extends MctoolkitFusionModEleme
 				MctoolkitFusionMod.LOGGER.warn("Failed to load dependency world for procedure AttackingPlayerWithAbility!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if (((entity instanceof PlayerEntity) && (((entity.getPersistentData().getDouble("bud")) > 0) && (sourceentity.isNonBoss())))) {
 			if (world instanceof ServerWorld) {
 				Entity entityToSpawn = new RedRagerEntity.CustomEntity(RedRagerEntity.entity, (World) world);
 				entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
-
 				if (entityToSpawn instanceof MobEntity)
 					((MobEntity) entityToSpawn).onInitialSpawn((ServerWorld) world, world.getDifficultyForLocation(entityToSpawn.getPosition()),
 							SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
-
 				world.addEntity(entityToSpawn);
 			}
 			sourceentity.attackEntityFrom(DamageSource.MAGIC, (float) (entity.getPersistentData().getDouble("bud")));
@@ -98,7 +119,6 @@ public class AttackingPlayerWithAbilityProcedure extends MctoolkitFusionModEleme
 			}
 			entity.getPersistentData().putDouble("bud", ((entity.getPersistentData().getDouble("bud")) - 1));
 		}
-
 	}
 
 	@SubscribeEvent
@@ -125,5 +145,4 @@ public class AttackingPlayerWithAbilityProcedure extends MctoolkitFusionModEleme
 			this.executeProcedure(dependencies);
 		}
 	}
-
 }
