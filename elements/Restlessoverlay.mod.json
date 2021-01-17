@@ -135,6 +135,9 @@
         }
       }
     ],
-    "baseTexture": ""
+    "baseTexture": "",
+    "displayCondition": {
+      "name": "RestlessoverlayDisplayOverlayIngame"
+    }
   }
 }

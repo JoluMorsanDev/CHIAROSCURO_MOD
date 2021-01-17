@@ -13,10 +13,13 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.mctoolkitfusion.procedures.RestlessoverlayDisplayOverlayIngameProcedure;
 import net.mcreator.mctoolkitfusion.MctoolkitFusionModElements;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.platform.GlStateManager;
+
+import com.google.common.collect.ImmutableMap;
 
 @MctoolkitFusionModElements.ModElement.Tag
 public class RestlessoverlayOverlay extends MctoolkitFusionModElements.ModElement {
@@ -40,7 +43,7 @@ public class RestlessoverlayOverlay extends MctoolkitFusionModElements.ModElemen
 			double x = entity.getPosX();
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
-			if (true) {
+			if (RestlessoverlayDisplayOverlayIngameProcedure.executeProcedure(ImmutableMap.of("entity", entity))) {
 				RenderSystem.disableDepthTest();
 				RenderSystem.depthMask(false);
 				RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA,
