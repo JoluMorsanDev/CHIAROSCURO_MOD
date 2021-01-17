@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "command",
+  "definition": {
+    "commandName": "variable",
+    "permissionLevel": 1,
+    "onCommandExecuted": {
+      "name": "VariableSeeingExecuted"
+    }
+  }
+}

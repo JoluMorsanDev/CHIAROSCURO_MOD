@@ -3,13 +3,14 @@ package net.mcreator.mctoolkitfusion.procedures;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.DamageSource;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.entity.projectile.FireballEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.passive.TameableEntity;
 import net.minecraft.entity.passive.StriderEntity;
 import net.minecraft.entity.monster.piglin.PiglinEntity;
 import net.minecraft.entity.monster.piglin.PiglinBruteEntity;
@@ -65,8 +66,7 @@ public class RestlessSoulBowBulletHitsLivingEntityProcedure extends MctoolkitFus
 		Entity entity = (Entity) dependencies.get("entity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		IWorld world = (IWorld) dependencies.get("world");
-		double NumberCounter = 0;
-		if (((sourceentity.getPersistentData().getBoolean("HasPower")) == (true))) {
+		if (((sourceentity.getPersistentData().getBoolean("power")) == (true))) {
 			if ((((sourceentity.getPersistentData().getString("RestlessBowAbility"))).equals("Blaze"))) {
 				if (world instanceof ServerWorld) {
 					Entity entityToSpawn = new FireballEntity(EntityType.FIREBALL, (World) world);
@@ -101,11 +101,11 @@ public class RestlessSoulBowBulletHitsLivingEntityProcedure extends MctoolkitFus
 									entity.setMotion((entity.getMotion().getX()), 2, (entity.getMotion().getZ()));
 								} else {
 									if ((((sourceentity.getPersistentData().getString("RestlessBowAbility"))).equals("RedRager"))) {
-										if ((!((entity instanceof PlayerEntity) || (!(entity.isNonBoss()))))) {
-											if ((entity instanceof TameableEntity) && (sourceentity instanceof PlayerEntity)) {
-												((TameableEntity) entity).setTamed(true);
-												((TameableEntity) entity).setTamedBy((PlayerEntity) sourceentity);
-											}
+										sourceentity.getPersistentData().putDouble("bud", ((sourceentity.getPersistentData().getDouble("bud")) + 1));
+										entity.attackEntityFrom(DamageSource.GENERIC, (float) Double.POSITIVE_INFINITY);
+										if (sourceentity instanceof PlayerEntity && !sourceentity.world.isRemote()) {
+											((PlayerEntity) sourceentity).sendStatusMessage(new StringTextComponent(
+													(("level: ") + "" + ((sourceentity.getPersistentData().getDouble("bud"))))), (false));
 										}
 									} else {
 										if ((((sourceentity.getPersistentData().getString("RestlessBowAbility"))).equals("Enderman"))) {
@@ -153,49 +153,45 @@ public class RestlessSoulBowBulletHitsLivingEntityProcedure extends MctoolkitFus
 					}
 				}
 			}
-			NumberCounter = (double) 0;
-			sourceentity.getPersistentData().putBoolean("HasPower", (false));
 			sourceentity.getPersistentData().putString("RestlessBowAbility", "None");
+			sourceentity.getPersistentData().putBoolean("power", (false));
 		} else {
 			if (((entity instanceof BlazeEntity) || (entity instanceof GhastEntity))) {
 				sourceentity.getPersistentData().putString("RestlessBowAbility", "Blaze");
-				sourceentity.getPersistentData().putBoolean("HasPower", (true));
+				sourceentity.getPersistentData().putBoolean("power", (true));
 			}
 			if (((entity instanceof HoglinEntity) || (entity instanceof ZoglinEntity))) {
 				sourceentity.getPersistentData().putString("RestlessBowAbility", "Hoglin");
-				sourceentity.getPersistentData().putBoolean("HasPower", (true));
+				sourceentity.getPersistentData().putBoolean("power", (true));
 			}
-			if ((entity instanceof RedRagerEntity.CustomEntity)) {
+			if (((entity instanceof RedRagerEntity.CustomEntity)
+					|| ((entity instanceof PiglinEntity) || ((entity instanceof PiglinBruteEntity) || (entity instanceof ZombifiedPiglinEntity))))) {
 				sourceentity.getPersistentData().putString("RestlessBowAbility", "RedRager");
-				sourceentity.getPersistentData().putBoolean("HasPower", (true));
+				sourceentity.getPersistentData().putBoolean("power", (true));
 			}
 			if ((entity instanceof StriderEntity)) {
 				sourceentity.getPersistentData().putString("RestlessBowAbility", "Strider");
-				sourceentity.getPersistentData().putBoolean("HasPower", (true));
+				sourceentity.getPersistentData().putBoolean("power", (true));
 			}
 			if ((entity instanceof SkeletonEntity)) {
 				sourceentity.getPersistentData().putString("RestlessBowAbility", "Skeleton");
-				sourceentity.getPersistentData().putBoolean("HasPower", (true));
+				sourceentity.getPersistentData().putBoolean("power", (true));
 			}
 			if ((entity instanceof WitherSkeletonEntity)) {
 				sourceentity.getPersistentData().putString("RestlessBowAbility", "WitherSkeleton");
-				sourceentity.getPersistentData().putBoolean("HasPower", (true));
+				sourceentity.getPersistentData().putBoolean("power", (true));
 			}
 			if ((entity instanceof MagmaCubeEntity)) {
 				sourceentity.getPersistentData().putString("RestlessBowAbility", "MagmaCube");
-				sourceentity.getPersistentData().putBoolean("HasPower", (true));
-			}
-			if (((entity instanceof PiglinEntity) || ((entity instanceof PiglinBruteEntity) || (entity instanceof ZombifiedPiglinEntity)))) {
-				sourceentity.getPersistentData().putString("RestlessBowAbility", "Piglin");
-				sourceentity.getPersistentData().putBoolean("HasPower", (true));
+				sourceentity.getPersistentData().putBoolean("power", (true));
 			}
 			if ((entity instanceof PsycheWarperEntity.CustomEntity)) {
 				sourceentity.getPersistentData().putString("RestlessBowAbility", "PsycheWarper");
-				sourceentity.getPersistentData().putBoolean("HasPower", (true));
+				sourceentity.getPersistentData().putBoolean("power", (true));
 			}
 			if ((entity instanceof EndermanEntity)) {
 				sourceentity.getPersistentData().putString("RestlessBowAbility", "Enderman");
-				sourceentity.getPersistentData().putBoolean("HasPower", (true));
+				sourceentity.getPersistentData().putBoolean("power", (true));
 			}
 			world.addParticle(SoulParticleParticle.particle, (entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
 					(((sourceentity.getPosX()) - (entity.getPosX())) / 2.5), (((sourceentity.getPosY()) - (entity.getPosY())) / 2.5),
