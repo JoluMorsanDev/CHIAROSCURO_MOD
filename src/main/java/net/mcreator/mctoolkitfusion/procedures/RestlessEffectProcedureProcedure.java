@@ -12,11 +12,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.mctoolkitfusion.potion.RestlessCursePotion;
-import net.mcreator.mctoolkitfusion.block.RestlessSoulSoilBlock;
-import net.mcreator.mctoolkitfusion.block.RestlessSoulSandBlock;
 import net.mcreator.mctoolkitfusion.block.RestlessSoulFireBlock;
-import net.mcreator.mctoolkitfusion.block.RestlessSoulCrystalOreBlock;
-import net.mcreator.mctoolkitfusion.block.RestlesSoulCoalOreBlock;
 import net.mcreator.mctoolkitfusion.MctoolkitFusionModElements;
 import net.mcreator.mctoolkitfusion.MctoolkitFusionMod;
 
@@ -74,18 +70,6 @@ public class RestlessEffectProcedureProcedure extends MctoolkitFusionModElements
 				for (int index2 = 0; index2 < (int) (6); index2++) {
 					if (((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz)))))
 							.getBlock() == RestlessSoulFireBlock.block.getDefaultState().getBlock())) {
-						found = (boolean) (true);
-					} else if (((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz)))))
-							.getBlock() == RestlesSoulCoalOreBlock.block.getDefaultState().getBlock())) {
-						found = (boolean) (true);
-					} else if (((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz)))))
-							.getBlock() == RestlessSoulCrystalOreBlock.block.getDefaultState().getBlock())) {
-						found = (boolean) (true);
-					} else if (((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz)))))
-							.getBlock() == RestlessSoulSandBlock.block.getDefaultState().getBlock())) {
-						found = (boolean) (true);
-					} else if (((world.getBlockState(new BlockPos((int) (x + (sx)), (int) (y + (sy)), (int) (z + (sz)))))
-							.getBlock() == RestlessSoulSoilBlock.block.getDefaultState().getBlock())) {
 						found = (boolean) (true);
 					}
 					sz = (double) ((sz) + 1);

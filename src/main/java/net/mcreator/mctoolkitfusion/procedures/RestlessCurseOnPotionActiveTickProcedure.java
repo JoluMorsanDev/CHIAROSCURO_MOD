@@ -33,11 +33,11 @@ public class RestlessCurseOnPotionActiveTickProcedure extends MctoolkitFusionMod
 		if ((((entity.getCapability(MctoolkitFusionModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new MctoolkitFusionModVariables.PlayerVariables())).NetherEvilness) < 100)) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 2, (int) 0, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOWNESS, (int) 40, (int) 0, (false), (false)));
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WEAKNESS, (int) 2, (int) 0, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WEAKNESS, (int) 40, (int) 0, (false), (false)));
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 2, (int) 2, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NAUSEA, (int) 40, (int) 2, (false), (false)));
 			if (((new Object() {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayerEntity) {
@@ -68,9 +68,17 @@ public class RestlessCurseOnPotionActiveTickProcedure extends MctoolkitFusionMod
 						capability.syncPlayerVariables(entity);
 					});
 				}
+			} else {
+				{
+					boolean _setval = (boolean) (false);
+					entity.getCapability(MctoolkitFusionModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Restlessovelay = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
 			}
 		}
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOW_FALLING, (int) 2, (int) 1, (false), (false)));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SLOW_FALLING, (int) 40, (int) 1, (false), (false)));
 	}
 }

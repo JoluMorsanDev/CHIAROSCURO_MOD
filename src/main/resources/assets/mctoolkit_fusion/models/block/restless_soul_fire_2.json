@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "mctoolkit_fusion:blocks/restless_soul_fire_2",
+    "particle": "mctoolkit_fusion:blocks/restless_soul_fire_2"
+  }
+}

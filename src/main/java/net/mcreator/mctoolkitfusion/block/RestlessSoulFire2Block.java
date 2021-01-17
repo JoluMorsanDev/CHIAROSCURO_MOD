@@ -42,11 +42,11 @@ import java.util.HashMap;
 import java.util.Collections;
 
 @MctoolkitFusionModElements.ModElement.Tag
-public class RestlessSoulFireBlock extends MctoolkitFusionModElements.ModElement {
-	@ObjectHolder("mctoolkit_fusion:restless_soul_fire")
+public class RestlessSoulFire2Block extends MctoolkitFusionModElements.ModElement {
+	@ObjectHolder("mctoolkit_fusion:restless_soul_fire_2")
 	public static final Block block = null;
-	public RestlessSoulFireBlock(MctoolkitFusionModElements instance) {
-		super(instance, 172);
+	public RestlessSoulFire2Block(MctoolkitFusionModElements instance) {
+		super(instance, 175);
 	}
 
 	@Override
@@ -65,7 +65,7 @@ public class RestlessSoulFireBlock extends MctoolkitFusionModElements.ModElement
 			super(Block.Properties.create(Material.FIRE).sound(SoundType.GROUND).hardnessAndResistance(0f, 0f).setLightLevel(s -> 15).harvestLevel(0)
 					.harvestTool(ToolType.SHOVEL).doesNotBlockMovement().notSolid().setNeedsPostProcessing((bs, br, bp) -> true)
 					.setEmmisiveRendering((bs, br, bp) -> true).setOpaque((bs, br, bp) -> false));
-			setRegistryName("restless_soul_fire");
+			setRegistryName("restless_soul_fire_2");
 		}
 
 		@Override

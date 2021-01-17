@@ -2107,6 +2107,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "RestlessSoulFireEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_fire_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RestlessSoulFire2",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_soul_fire_2"
     }
   ],
   "variable_elements": [
@@ -2168,6 +2194,7 @@
       "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper Stairs",
       "block.mctoolkit_fusion.soul_coal_ore": "Soul Coal Ore",
       "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
+      "block.mctoolkit_fusion.restless_soul_fire_2": "Restless Soul Fire",
       "block.mctoolkit_fusion.restless_soul_fire": "Restless Soul Fire",
       "block.mctoolkit_fusion.soul_wood_door": "Soul Wood Door",
       "item.mctoolkit_fusion.restless_soul_arrow": "Restless Soul Arrow",
@@ -2285,6 +2312,7 @@
       "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper",
       "block.mctoolkit_fusion.soul_coal_ore": "Mineral de carbon de alma",
       "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
+      "block.mctoolkit_fusion.restless_soul_fire_2": "Restless Soul Fire",
       "block.mctoolkit_fusion.restless_soul_fire": "Restless Soul Fire",
       "block.mctoolkit_fusion.soul_wood_door": "Soul Wood Door",
       "item.mctoolkit_fusion.restless_soul_arrow": "Restless Soul Arrow",
@@ -2403,6 +2431,7 @@
       "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper",
       "block.mctoolkit_fusion.soul_coal_ore": "Mineral de carbon de alma",
       "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
+      "block.mctoolkit_fusion.restless_soul_fire_2": "Restless Soul Fire",
       "block.mctoolkit_fusion.restless_soul_fire": "Restless Soul Fire",
       "block.mctoolkit_fusion.soul_wood_door": "Soul Wood Door",
       "item.mctoolkit_fusion.restless_soul_arrow": "Restless Soul Arrow",
@@ -2521,6 +2550,7 @@
       "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper",
       "block.mctoolkit_fusion.soul_coal_ore": "鬼煤矿石",
       "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
+      "block.mctoolkit_fusion.restless_soul_fire_2": "Restless Soul Fire",
       "block.mctoolkit_fusion.restless_soul_fire": "Restless Soul Fire",
       "block.mctoolkit_fusion.soul_wood_door": "Soul Wood Door",
       "item.mctoolkit_fusion.restless_soul_arrow": "Restless Soul Arrow",
