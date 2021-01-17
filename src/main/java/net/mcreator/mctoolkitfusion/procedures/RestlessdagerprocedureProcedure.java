@@ -31,7 +31,7 @@ public class RestlessdagerprocedureProcedure extends MctoolkitFusionModElements.
 		Entity entity = (Entity) dependencies.get("entity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
 		if ((((entity.getCapability(MctoolkitFusionModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new MctoolkitFusionModVariables.PlayerVariables())).Soulevilness) <= 5)) {
+				.orElse(new MctoolkitFusionModVariables.PlayerVariables())).NetherEvilness) <= 5)) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WITHER, (int) 90, (int) 2, (false), (false)));
 			if (sourceentity instanceof LivingEntity)

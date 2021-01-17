@@ -1995,14 +1995,90 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "death_wish"
+    },
+    {
+      "name": "RestlessCurse",
+      "type": "potion",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_curse"
+    },
+    {
+      "name": "Restlessoverlay",
+      "type": "overlay",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restlessoverlay"
+    },
+    {
+      "name": "RestlessCurseOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_curse_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RestlessCursePotionExpires",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restless_curse_potion_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RestlessoverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restlessoverlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
     {
-      "name": "Soulevilness",
+      "name": "NetherEvilness",
       "type": "number",
       "scope": "player_persistent",
       "value": "0.0"
+    },
+    {
+      "name": "Restlessovelay",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -2070,6 +2146,7 @@
       "entity.mctoolkit_fusion.psyche_warper": "Psyche Warper",
       "block.mctoolkit_fusion.soul_slab": "Soul Slab",
       "block.mctoolkit_fusion.semi_weathered_copper_block": "Semi-Weathered Copper Block",
+      "effect.restless_curse": "Restless Curse",
       "item.mctoolkit_fusion.bassaltshards": "Basalt Shards",
       "block.mctoolkit_fusion.restless_soul_sand": "Restless Soul Soil",
       "block.mctoolkit_fusion.restless_soul_soil": "Restless Soul Soil",
@@ -2080,6 +2157,7 @@
       "block.mctoolkit_fusion.fate_maker": "Fate Maker",
       "item.mctoolkit_fusion.restlesssoulfirecharge": "Soul Fire Charge",
       "item.mctoolkit_fusion.spritghast_spawn_egg": "Sprit Ghast Spawn Egg",
+      "item.minecraft.tipped_arrow.effect.restless_curse": "Arrow of Restless Curse",
       "block.mctoolkit_fusion.lightly_weathered_cooper_stairs": "Lightly Weathered Cut Copper Stairs",
       "block.mctoolkit_fusion.weathered_cooper_stairs": "Weathered Cut Copper Stairs",
       "block.mctoolkit_fusion.waxed_lightly_weathered_cut_copper": "Waxed Lightly Weathered Cut Copper",
@@ -2087,6 +2165,7 @@
       "block.mctoolkit_fusion.soul_spawner": "Soul Spawner",
       "item.mctoolkit_fusion.restless_soul_bow": "Restless Soul Bow",
       "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
+      "item.minecraft.lingering_potion.effect.restless_curse": "Lingering Restless Curse",
       "item.mctoolkit_fusion.restless_soul_dagger": "Restless Soul Dagger",
       "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
       "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt Leggings",
@@ -2099,6 +2178,7 @@
       "item.mctoolkit_fusion.restless_soul_coal": "Restless Soul Coal",
       "block.mctoolkit_fusion.soulstone": "Soul Stone",
       "block.mctoolkit_fusion.soul_planks": "Soul Planks",
+      "item.minecraft.splash_potion.effect.restless_curse": "Splash Restless Curse",
       "block.mctoolkit_fusion.semi_weathered_cut_cooper_stairs": "Semi-Weathered Cut Copper Stairs",
       "block.mctoolkit_fusion.lightly_weathered_copper_block": "Lightly Weathered Copper Block",
       "item.mctoolkit_fusion.soul_spawn_egg": "Soul Spawn Egg",
@@ -2119,6 +2199,7 @@
       "item.mctoolkit_fusion.psyche_bender": "Psyche Bender",
       "block.mctoolkit_fusion.restless_soul_stone_pillar": "Restless Soul Stone Pillar",
       "block.mctoolkit_fusion.copper_ore": "Copper Ore",
+      "item.minecraft.potion.effect.restless_curse": "Restless Curse",
       "entity.mctoolkit_fusion.red_rager": "Red Rager",
       "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt Helmet",
       "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",
@@ -2181,6 +2262,7 @@
       "entity.mctoolkit_fusion.psyche_warper": "Psyche Warper",
       "block.mctoolkit_fusion.soul_slab": "Soul Slab",
       "block.mctoolkit_fusion.semi_weathered_copper_block": "Lightly Weathered Copper Block",
+      "effect.restless_curse": "Restless Curse",
       "item.mctoolkit_fusion.bassaltshards": "Basalt shards",
       "block.mctoolkit_fusion.restless_soul_sand": "Restless Soul Soil",
       "block.mctoolkit_fusion.restless_soul_soil": "Restless Soul Soil",
@@ -2191,6 +2273,7 @@
       "block.mctoolkit_fusion.fate_maker": "Fate Maker",
       "item.mctoolkit_fusion.restlesssoulfirecharge": "Soul Fire Charge",
       "item.mctoolkit_fusion.spritghast_spawn_egg": "Spritghast Spawn Egg",
+      "item.minecraft.tipped_arrow.effect.restless_curse": "Arrow of Restless Curse",
       "block.mctoolkit_fusion.lightly_weathered_cooper_stairs": "Lightly Weathered Cut Copper",
       "block.mctoolkit_fusion.weathered_cooper_stairs": "Weathered Cut Copper",
       "block.mctoolkit_fusion.waxed_lightly_weathered_cut_copper": "Lightly Weathered Cut Copper",
@@ -2198,6 +2281,7 @@
       "block.mctoolkit_fusion.soul_spawner": "Soul Spawner",
       "item.mctoolkit_fusion.restless_soul_bow": "Restless Soul Bow",
       "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
+      "item.minecraft.lingering_potion.effect.restless_curse": "Lingering Restless Curse",
       "item.mctoolkit_fusion.restless_soul_dagger": "Soul Dagger",
       "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
       "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt armor Leggings",
@@ -2210,6 +2294,7 @@
       "item.mctoolkit_fusion.restless_soul_coal": "Soul Coal",
       "block.mctoolkit_fusion.soulstone": "Piedra de almas",
       "block.mctoolkit_fusion.soul_planks": "Soul Planks",
+      "item.minecraft.splash_potion.effect.restless_curse": "Splash Restless Curse",
       "block.mctoolkit_fusion.semi_weathered_cut_cooper_stairs": "Semi-Weathered Cut Copper",
       "block.mctoolkit_fusion.lightly_weathered_copper_block": "Cooper Block",
       "item.mctoolkit_fusion.soul_spawn_egg": "Soul Spawn Egg",
@@ -2230,6 +2315,7 @@
       "block.mctoolkit_fusion.restless_soul_log": "Restless Soul Log",
       "block.mctoolkit_fusion.restless_soul_stone_pillar": "Restless Soul Stone Pillar",
       "block.mctoolkit_fusion.copper_ore": "Copper Ore",
+      "item.minecraft.potion.effect.restless_curse": "Restless Curse",
       "entity.mctoolkit_fusion.red_rager": "Ira roja",
       "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt armor Helmet",
       "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",
@@ -2293,6 +2379,7 @@
       "entity.mctoolkit_fusion.psyche_warper": "Psyche Warper",
       "block.mctoolkit_fusion.soul_slab": "Soul Slab",
       "block.mctoolkit_fusion.semi_weathered_copper_block": "Lightly Weathered Copper Block",
+      "effect.restless_curse": "Restless Curse",
       "item.mctoolkit_fusion.bassaltshards": "Basalt shards",
       "block.mctoolkit_fusion.restless_soul_sand": "Restless Soul Soil",
       "block.mctoolkit_fusion.restless_soul_soil": "Restless Soul Soil",
@@ -2303,6 +2390,7 @@
       "block.mctoolkit_fusion.fate_maker": "Fate Maker",
       "item.mctoolkit_fusion.restlesssoulfirecharge": "Soul Fire Charge",
       "item.mctoolkit_fusion.spritghast_spawn_egg": "Spritghast Spawn Egg",
+      "item.minecraft.tipped_arrow.effect.restless_curse": "Arrow of Restless Curse",
       "block.mctoolkit_fusion.lightly_weathered_cooper_stairs": "Lightly Weathered Cut Copper",
       "block.mctoolkit_fusion.weathered_cooper_stairs": "Weathered Cut Copper",
       "block.mctoolkit_fusion.waxed_lightly_weathered_cut_copper": "Lightly Weathered Cut Copper",
@@ -2310,6 +2398,7 @@
       "block.mctoolkit_fusion.soul_spawner": "Soul Spawner",
       "item.mctoolkit_fusion.restless_soul_bow": "Restless Soul Bow",
       "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
+      "item.minecraft.lingering_potion.effect.restless_curse": "Lingering Restless Curse",
       "item.mctoolkit_fusion.restless_soul_dagger": "Soul Dagger",
       "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
       "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt armor Leggings",
@@ -2322,6 +2411,7 @@
       "item.mctoolkit_fusion.restless_soul_coal": "Soul Coal",
       "block.mctoolkit_fusion.soulstone": "Piedra de almas",
       "block.mctoolkit_fusion.soul_planks": "Soul Planks",
+      "item.minecraft.splash_potion.effect.restless_curse": "Splash Restless Curse",
       "block.mctoolkit_fusion.semi_weathered_cut_cooper_stairs": "Semi-Weathered Cut Copper",
       "block.mctoolkit_fusion.lightly_weathered_copper_block": "Cooper Block",
       "item.mctoolkit_fusion.soul_spawn_egg": "Soul Spawn Egg",
@@ -2342,6 +2432,7 @@
       "block.mctoolkit_fusion.restless_soul_log": "Restless Soul Log",
       "block.mctoolkit_fusion.restless_soul_stone_pillar": "Restless Soul Stone Pillar",
       "block.mctoolkit_fusion.copper_ore": "Copper Ore",
+      "item.minecraft.potion.effect.restless_curse": "Restless Curse",
       "entity.mctoolkit_fusion.red_rager": "Rabia roja",
       "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt armor Helmet",
       "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",
@@ -2405,6 +2496,7 @@
       "entity.mctoolkit_fusion.psyche_warper": "Psyche Warper",
       "block.mctoolkit_fusion.soul_slab": "Soul Slab",
       "block.mctoolkit_fusion.semi_weathered_copper_block": "Lightly Weathered Copper Block",
+      "effect.restless_curse": "Restless Curse",
       "item.mctoolkit_fusion.bassaltshards": "玄武岩碎片",
       "block.mctoolkit_fusion.restless_soul_sand": "Restless Soul Soil",
       "block.mctoolkit_fusion.restless_soul_soil": "Restless Soul Soil",
@@ -2415,6 +2507,7 @@
       "block.mctoolkit_fusion.fate_maker": "Fate Maker",
       "item.mctoolkit_fusion.restlesssoulfirecharge": "Soul Fire Charge",
       "item.mctoolkit_fusion.spritghast_spawn_egg": "Spritghast Spawn Egg",
+      "item.minecraft.tipped_arrow.effect.restless_curse": "Arrow of Restless Curse",
       "block.mctoolkit_fusion.lightly_weathered_cooper_stairs": "Lightly Weathered Cut Copper",
       "block.mctoolkit_fusion.weathered_cooper_stairs": "Weathered Cut Copper",
       "block.mctoolkit_fusion.waxed_lightly_weathered_cut_copper": "Lightly Weathered Cut Copper",
@@ -2422,6 +2515,7 @@
       "block.mctoolkit_fusion.soul_spawner": "Soul Spawner",
       "item.mctoolkit_fusion.restless_soul_bow": "Restless Soul Bow",
       "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
+      "item.minecraft.lingering_potion.effect.restless_curse": "Lingering Restless Curse",
       "item.mctoolkit_fusion.restless_soul_dagger": "Soul Dagger",
       "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
       "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt Leggings",
@@ -2434,6 +2528,7 @@
       "item.mctoolkit_fusion.restless_soul_coal": "Soul Coal",
       "block.mctoolkit_fusion.soulstone": "鬼石",
       "block.mctoolkit_fusion.soul_planks": "Soul Planks",
+      "item.minecraft.splash_potion.effect.restless_curse": "Splash Restless Curse",
       "block.mctoolkit_fusion.semi_weathered_cut_cooper_stairs": "Semi-Weathered Cut Copper",
       "block.mctoolkit_fusion.lightly_weathered_copper_block": "Cooper Block",
       "item.mctoolkit_fusion.soul_spawn_egg": "Soul Spawn Egg",
@@ -2454,6 +2549,7 @@
       "block.mctoolkit_fusion.restless_soul_log": "Restless Soul Log",
       "block.mctoolkit_fusion.restless_soul_stone_pillar": "Restless Soul Stone Pillar",
       "block.mctoolkit_fusion.copper_ore": "Copper Ore",
+      "item.minecraft.potion.effect.restless_curse": "Restless Curse",
       "entity.mctoolkit_fusion.red_rager": "怒气红红",
       "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt Helmet",
       "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",

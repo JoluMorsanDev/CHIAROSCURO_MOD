@@ -145,9 +145,9 @@ public class VariablesDebugGUIGui extends MctoolkitFusionModElements.ModElement 
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-			this.font.drawString(ms, "Soul evilness", 8, 10, -14144984);
-			this.font.drawString(ms, "" + (int) ((entity.getCapability(MctoolkitFusionModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new MctoolkitFusionModVariables.PlayerVariables())).Soulevilness) + "", 7, 22, -12829636);
+			this.font.drawString(ms, "Nether evilness", 8, 10, -14144984);
+			this.font.drawString(ms, "" + ((entity.getCapability(MctoolkitFusionModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new MctoolkitFusionModVariables.PlayerVariables())).NetherEvilness) + "", 8, 22, -12829636);
 		}
 
 		@Override

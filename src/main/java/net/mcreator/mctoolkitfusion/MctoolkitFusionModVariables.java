@@ -67,19 +67,22 @@ public class MctoolkitFusionModVariables {
 		@Override
 		public INBT writeNBT(Capability<PlayerVariables> capability, PlayerVariables instance, Direction side) {
 			CompoundNBT nbt = new CompoundNBT();
-			nbt.putDouble("Soulevilness", instance.Soulevilness);
+			nbt.putDouble("NetherEvilness", instance.NetherEvilness);
+			nbt.putBoolean("Restlessovelay", instance.Restlessovelay);
 			return nbt;
 		}
 
 		@Override
 		public void readNBT(Capability<PlayerVariables> capability, PlayerVariables instance, Direction side, INBT inbt) {
 			CompoundNBT nbt = (CompoundNBT) inbt;
-			instance.Soulevilness = nbt.getDouble("Soulevilness");
+			instance.NetherEvilness = nbt.getDouble("NetherEvilness");
+			instance.Restlessovelay = nbt.getBoolean("Restlessovelay");
 		}
 	}
 
 	public static class PlayerVariables {
-		public double Soulevilness = 0.0;
+		public double NetherEvilness = 0.0;
+		public boolean Restlessovelay = false;
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
 				MctoolkitFusionMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) entity),
@@ -114,7 +117,7 @@ public class MctoolkitFusionModVariables {
 					.orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new PlayerVariables()));
-			clone.Soulevilness = original.Soulevilness;
+			clone.NetherEvilness = original.NetherEvilness;
 		}
 	}
 	public static class PlayerVariablesSyncMessage {
@@ -138,7 +141,8 @@ public class MctoolkitFusionModVariables {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new PlayerVariables()));
-					variables.Soulevilness = message.data.Soulevilness;
+					variables.NetherEvilness = message.data.NetherEvilness;
+					variables.Restlessovelay = message.data.Restlessovelay;
 				}
 			});
 			context.setPacketHandled(true);
