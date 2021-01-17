@@ -13,12 +13,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Soul evilness",
+          "text": "Nether evilness",
           "color": {
             "value": -14144984,
             "falpha": 0.0
           },
-          "name": "Soul evilness",
+          "name": "Nether evilness",
           "x": 134,
           "y": 47
         }
@@ -26,13 +26,13 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:Soulevilness>",
+          "text": "<VAR:NetherEvilness>",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:Soulevilness>",
-          "x": 133,
+          "name": "<VAR:NetherEvilness>",
+          "x": 134,
           "y": 59
         }
       }

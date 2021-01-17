@@ -45,9 +45,9 @@ public class PlayersoulevilnesskillProcedure extends MctoolkitFusionModElements.
 								|| ((sourceentity instanceof PlayerEntity) && (entity instanceof GhastEntity)))))) {
 			{
 				double _setval = (double) (((entity.getCapability(MctoolkitFusionModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-						.orElse(new MctoolkitFusionModVariables.PlayerVariables())).Soulevilness) + 1);
+						.orElse(new MctoolkitFusionModVariables.PlayerVariables())).NetherEvilness) + 1);
 				entity.getCapability(MctoolkitFusionModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-					capability.Soulevilness = _setval;
+					capability.NetherEvilness = _setval;
 					capability.syncPlayerVariables(entity);
 				});
 			}

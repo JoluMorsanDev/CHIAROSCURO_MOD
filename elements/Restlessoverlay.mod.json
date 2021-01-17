@@ -1,0 +1,143 @@
+{
+  "_fv": 15,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay1.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay1.png",
+          "x": 321,
+          "y": 17
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay1.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay1.png",
+          "x": 60,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay1.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay1.png",
+          "x": 249,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay1.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay1.png",
+          "x": 87,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay2.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay2.png",
+          "x": 141,
+          "y": 17
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay2.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay2.png",
+          "x": 339,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay3.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay3.png",
+          "x": 168,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay2.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay2.png",
+          "x": 24,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay1.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay1.png",
+          "x": 222,
+          "y": 8
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay3.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay3.png",
+          "x": 393,
+          "y": 8
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay2.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay2.png",
+          "x": -12,
+          "y": -10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay3.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay3.png",
+          "x": -12,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "restlessoverlay3.png",
+          "use1Xscale": false,
+          "name": "restlessoverlay3.png",
+          "x": 294,
+          "y": 197
+        }
+      }
+    ],
+    "baseTexture": "",
+    "displayCondition": {
+      "name": "RestlessoverlayDisplayOverlayIngame"
+    }
+  }
+}
