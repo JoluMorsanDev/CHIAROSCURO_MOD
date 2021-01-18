@@ -4,7 +4,6 @@ package net.mcreator.mctoolkitfusion.particle;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.client.event.ParticleFactoryRegisterEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -26,7 +25,6 @@ public class SoulTrailParticleParticle extends MctoolkitFusionModElements.ModEle
 	public static final BasicParticleType particle = new BasicParticleType(false);
 	public SoulTrailParticleParticle(MctoolkitFusionModElements instance) {
 		super(instance, 129);
-		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

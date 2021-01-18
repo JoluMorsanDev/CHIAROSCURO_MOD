@@ -46,29 +46,29 @@ public class SoulfirechargeblockProcedure extends MctoolkitFusionModElements.Mod
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.SOUL_SOIL.getDefaultState().getBlock())) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !((World) world).isRemote) {
 				((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 4, Explosion.Mode.BREAK);
 			}
 		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.SOUL_SAND.getDefaultState().getBlock())) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !((World) world).isRemote) {
 				((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 4, Explosion.Mode.BREAK);
 			}
 		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == SoulstoneBlock.block.getDefaultState().getBlock())) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !((World) world).isRemote) {
 				((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 3, Explosion.Mode.BREAK);
 			}
 		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == SoulCoalOreBlock.block.getDefaultState()
 				.getBlock())) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !((World) world).isRemote) {
 				((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 5, Explosion.Mode.BREAK);
 			}
 		} else if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == SoulCrystalOreBlock.block.getDefaultState()
 				.getBlock())) {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !((World) world).isRemote) {
 				((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 6, Explosion.Mode.BREAK);
 			}
 		} else {
-			if (world instanceof World && !world.isRemote()) {
+			if (world instanceof World && !((World) world).isRemote) {
 				((World) world).createExplosion(null, (int) x, (int) y, (int) z, (float) 4, Explosion.Mode.BREAK);
 			}
 		}

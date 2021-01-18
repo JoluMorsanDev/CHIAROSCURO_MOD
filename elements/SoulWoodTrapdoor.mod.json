@@ -16,6 +16,8 @@
     "itemTexture": "",
     "particleTexture": "",
     "blockBase": "TrapDoor",
+    "tintType": "No tint",
+    "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",

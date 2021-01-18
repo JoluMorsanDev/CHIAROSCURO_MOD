@@ -2,6 +2,7 @@ package net.mcreator.mctoolkitfusion.procedures;
 
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.living.LivingAttackEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.server.ServerWorld;
@@ -81,27 +82,193 @@ public class AttackingPlayerWithAbilityProcedure extends MctoolkitFusionModEleme
 				world.addEntity(entityToSpawn);
 			}
 			sourceentity.attackEntityFrom(DamageSource.MAGIC, (float) (entity.getPersistentData().getDouble("bud")));
-			if ((sourceentity.isAlive())) {
-				sourceentity.attackEntityFrom(DamageSource.MAGIC, (float) (entity.getPersistentData().getDouble("bud")));
-				if ((sourceentity.isAlive())) {
-					sourceentity.attackEntityFrom(DamageSource.MAGIC, (float) (entity.getPersistentData().getDouble("bud")));
-					if ((sourceentity.isAlive())) {
-						sourceentity.attackEntityFrom(DamageSource.MAGIC, (float) (entity.getPersistentData().getDouble("bud")));
-						if ((sourceentity.isAlive())) {
-							sourceentity.attackEntityFrom(DamageSource.MAGIC, (float) (entity.getPersistentData().getDouble("bud")));
-							if ((sourceentity.isAlive())) {
-								sourceentity.attackEntityFrom(DamageSource.MAGIC, (float) (entity.getPersistentData().getDouble("bud")));
-								if ((sourceentity.isAlive())) {
-									sourceentity.attackEntityFrom(DamageSource.MAGIC, (float) (entity.getPersistentData().getDouble("bud")));
-									if ((sourceentity.isAlive())) {
-										sourceentity.attackEntityFrom(DamageSource.MAGIC, (float) Double.POSITIVE_INFINITY);
-									}
-								}
-							}
-						}
+			new Object() {
+				private int ticks = 0;
+				private float waitTicks;
+				private IWorld world;
+				public void start(IWorld world, int waitTicks) {
+					this.waitTicks = waitTicks;
+					MinecraftForge.EVENT_BUS.register(this);
+					this.world = world;
+				}
+
+				@SubscribeEvent
+				public void tick(TickEvent.ServerTickEvent event) {
+					if (event.phase == TickEvent.Phase.END) {
+						this.ticks += 1;
+						if (this.ticks >= this.waitTicks)
+							run();
 					}
 				}
-			}
+
+				private void run() {
+					if ((sourceentity.isAlive())) {
+						sourceentity.attackEntityFrom(DamageSource.MAGIC, (float) (entity.getPersistentData().getDouble("bud")));
+						new Object() {
+							private int ticks = 0;
+							private float waitTicks;
+							private IWorld world;
+							public void start(IWorld world, int waitTicks) {
+								this.waitTicks = waitTicks;
+								MinecraftForge.EVENT_BUS.register(this);
+								this.world = world;
+							}
+
+							@SubscribeEvent
+							public void tick(TickEvent.ServerTickEvent event) {
+								if (event.phase == TickEvent.Phase.END) {
+									this.ticks += 1;
+									if (this.ticks >= this.waitTicks)
+										run();
+								}
+							}
+
+							private void run() {
+								if ((sourceentity.isAlive())) {
+									sourceentity.attackEntityFrom(DamageSource.MAGIC, (float) (entity.getPersistentData().getDouble("bud")));
+									new Object() {
+										private int ticks = 0;
+										private float waitTicks;
+										private IWorld world;
+										public void start(IWorld world, int waitTicks) {
+											this.waitTicks = waitTicks;
+											MinecraftForge.EVENT_BUS.register(this);
+											this.world = world;
+										}
+
+										@SubscribeEvent
+										public void tick(TickEvent.ServerTickEvent event) {
+											if (event.phase == TickEvent.Phase.END) {
+												this.ticks += 1;
+												if (this.ticks >= this.waitTicks)
+													run();
+											}
+										}
+
+										private void run() {
+											if ((sourceentity.isAlive())) {
+												sourceentity.attackEntityFrom(DamageSource.MAGIC,
+														(float) (entity.getPersistentData().getDouble("bud")));
+												new Object() {
+													private int ticks = 0;
+													private float waitTicks;
+													private IWorld world;
+													public void start(IWorld world, int waitTicks) {
+														this.waitTicks = waitTicks;
+														MinecraftForge.EVENT_BUS.register(this);
+														this.world = world;
+													}
+
+													@SubscribeEvent
+													public void tick(TickEvent.ServerTickEvent event) {
+														if (event.phase == TickEvent.Phase.END) {
+															this.ticks += 1;
+															if (this.ticks >= this.waitTicks)
+																run();
+														}
+													}
+
+													private void run() {
+														if ((sourceentity.isAlive())) {
+															sourceentity.attackEntityFrom(DamageSource.MAGIC,
+																	(float) (entity.getPersistentData().getDouble("bud")));
+															new Object() {
+																private int ticks = 0;
+																private float waitTicks;
+																private IWorld world;
+																public void start(IWorld world, int waitTicks) {
+																	this.waitTicks = waitTicks;
+																	MinecraftForge.EVENT_BUS.register(this);
+																	this.world = world;
+																}
+
+																@SubscribeEvent
+																public void tick(TickEvent.ServerTickEvent event) {
+																	if (event.phase == TickEvent.Phase.END) {
+																		this.ticks += 1;
+																		if (this.ticks >= this.waitTicks)
+																			run();
+																	}
+																}
+
+																private void run() {
+																	if ((sourceentity.isAlive())) {
+																		sourceentity.attackEntityFrom(DamageSource.MAGIC,
+																				(float) (entity.getPersistentData().getDouble("bud")));
+																		new Object() {
+																			private int ticks = 0;
+																			private float waitTicks;
+																			private IWorld world;
+																			public void start(IWorld world, int waitTicks) {
+																				this.waitTicks = waitTicks;
+																				MinecraftForge.EVENT_BUS.register(this);
+																				this.world = world;
+																			}
+
+																			@SubscribeEvent
+																			public void tick(TickEvent.ServerTickEvent event) {
+																				if (event.phase == TickEvent.Phase.END) {
+																					this.ticks += 1;
+																					if (this.ticks >= this.waitTicks)
+																						run();
+																				}
+																			}
+
+																			private void run() {
+																				if ((sourceentity.isAlive())) {
+																					sourceentity.attackEntityFrom(DamageSource.MAGIC,
+																							(float) (entity.getPersistentData().getDouble("bud")));
+																					new Object() {
+																						private int ticks = 0;
+																						private float waitTicks;
+																						private IWorld world;
+																						public void start(IWorld world, int waitTicks) {
+																							this.waitTicks = waitTicks;
+																							MinecraftForge.EVENT_BUS.register(this);
+																							this.world = world;
+																						}
+
+																						@SubscribeEvent
+																						public void tick(TickEvent.ServerTickEvent event) {
+																							if (event.phase == TickEvent.Phase.END) {
+																								this.ticks += 1;
+																								if (this.ticks >= this.waitTicks)
+																									run();
+																							}
+																						}
+
+																						private void run() {
+																							if ((sourceentity.isAlive())) {
+																								sourceentity.attackEntityFrom(DamageSource.MAGIC,
+																										(float) Double.POSITIVE_INFINITY);
+																							}
+																							MinecraftForge.EVENT_BUS.unregister(this);
+																						}
+																					}.start(world, (int) 100);
+																				}
+																				MinecraftForge.EVENT_BUS.unregister(this);
+																			}
+																		}.start(world, (int) 100);
+																	}
+																	MinecraftForge.EVENT_BUS.unregister(this);
+																}
+															}.start(world, (int) 100);
+														}
+														MinecraftForge.EVENT_BUS.unregister(this);
+													}
+												}.start(world, (int) 100);
+											}
+											MinecraftForge.EVENT_BUS.unregister(this);
+										}
+									}.start(world, (int) 100);
+								}
+								MinecraftForge.EVENT_BUS.unregister(this);
+							}
+						}.start(world, (int) 100);
+					}
+					MinecraftForge.EVENT_BUS.unregister(this);
+				}
+			}.start(world, (int) 100);
 			{
 				List<Entity> _entfound = world
 						.getEntitiesWithinAABB(Entity.class,

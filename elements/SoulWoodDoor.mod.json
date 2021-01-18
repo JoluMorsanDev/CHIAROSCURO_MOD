@@ -16,6 +16,8 @@
     "itemTexture": "soulwood_door",
     "particleTexture": "",
     "blockBase": "Door",
+    "tintType": "No tint",
+    "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",

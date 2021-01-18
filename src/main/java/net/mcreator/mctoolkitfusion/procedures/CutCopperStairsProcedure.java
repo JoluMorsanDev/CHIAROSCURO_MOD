@@ -56,26 +56,26 @@ public class CutCopperStairsProcedure extends MctoolkitFusionModElements.ModElem
 				BlockState _bs = world.getBlockState(_bp);
 				if (_tileEntity != null)
 					_tileEntity.getTileData().putDouble("dayTimer", ((new Object() {
-						public double getValue(BlockPos pos, String tag) {
+						public double getValue(IWorld world, BlockPos pos, String tag) {
 							TileEntity tileEntity = world.getTileEntity(pos);
 							if (tileEntity != null)
 								return tileEntity.getTileData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(new BlockPos((int) x, (int) y, (int) z), "dayTimer")) + 1));
+					}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "dayTimer")) + 1));
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
 			randomChance = (double) Math.random();
 			if (((randomChance) >= 0.8)) {
 				if (((new Object() {
-					public double getValue(BlockPos pos, String tag) {
+					public double getValue(IWorld world, BlockPos pos, String tag) {
 						TileEntity tileEntity = world.getTileEntity(pos);
 						if (tileEntity != null)
 							return tileEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(new BlockPos((int) x, (int) y, (int) z), "dayTimer")) >= 50)) {
+				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "dayTimer")) >= 50)) {
 					if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == CutCooperStairsBlock.block.getDefaultState()
 							.getBlock())) {
 						{
@@ -200,13 +200,13 @@ public class CutCopperStairsProcedure extends MctoolkitFusionModElements.ModElem
 				}
 			} else {
 				if (((new Object() {
-					public double getValue(BlockPos pos, String tag) {
+					public double getValue(IWorld world, BlockPos pos, String tag) {
 						TileEntity tileEntity = world.getTileEntity(pos);
 						if (tileEntity != null)
 							return tileEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(new BlockPos((int) x, (int) y, (int) z), "dayTimer")) >= 82)) {
+				}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "dayTimer")) >= 82)) {
 					if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == CutCooperStairsBlock.block.getDefaultState()
 							.getBlock())) {
 						{
