@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "mctoolkit_fusion:blocks/soul_stone",
-    "particle": "mctoolkit_fusion:blocks/soul_stone"
+    "all": "mctoolkit_fusion:blocks/soul_stone2",
+    "particle": "mctoolkit_fusion:blocks/soul_stone2"
   }
 }
