@@ -1,0 +1,9 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "mctoolkit_fusion:polished_soul_stone"
+  },
+  "result": "mctoolkit_fusion:soul_stone_pillars"
+}

@@ -1,0 +1,20 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:polished_soul_stone"
+    },
+    "1": {
+      "item": "mctoolkit_fusion:polished_soul_stone"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:soul_stone_pillars",
+    "count": 3
+  }
+}
