@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 12,
     "customModelName": "Cross model",
-    "rotationMode": 2,
+    "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "soul_crystal_3",
