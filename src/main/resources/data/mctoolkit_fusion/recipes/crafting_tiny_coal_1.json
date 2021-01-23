@@ -1,0 +1,39 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:tiny_coal"
+    },
+    "1": {
+      "item": "mctoolkit_fusion:tiny_coal"
+    },
+    "2": {
+      "item": "mctoolkit_fusion:tiny_coal"
+    },
+    "3": {
+      "item": "mctoolkit_fusion:tiny_coal"
+    },
+    "5": {
+      "item": "mctoolkit_fusion:tiny_coal"
+    },
+    "6": {
+      "item": "mctoolkit_fusion:tiny_coal"
+    },
+    "7": {
+      "item": "mctoolkit_fusion:tiny_coal"
+    },
+    "8": {
+      "item": "mctoolkit_fusion:tiny_coal"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal",
+    "count": 1
+  }
+}

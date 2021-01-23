@@ -1,0 +1,13 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "result": {
+    "item": "mctoolkit_fusion:tiny_coal",
+    "count": 8
+  }
+}
