@@ -1,12 +1,34 @@
 
 package net.mcreator.mctoolkitfusion.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.ai.attributes.Attributes;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.ai.attributes.Attribute;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.mctoolkitfusion.procedures.MagnetToolInHandProcedure;
+import net.mcreator.mctoolkitfusion.MctoolkitFusionModElements;
+
+import java.util.Map;
+import java.util.HashMap;
+
+import com.google.common.collect.Multimap;
+import com.google.common.collect.ImmutableMultimap;
+
 @MctoolkitFusionModElements.ModElement.Tag
 public class MagnetItem extends MctoolkitFusionModElements.ModElement {
-
 	@ObjectHolder("mctoolkit_fusion:magnet")
 	public static final Item block = null;
-
 	public MagnetItem(MctoolkitFusionModElements instance) {
 		super(instance, 206);
 	}
@@ -14,7 +36,6 @@ public class MagnetItem extends MctoolkitFusionModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
-
 			@Override
 			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
 				super.inventoryTick(itemstack, world, entity, slot, selected);
@@ -23,18 +44,13 @@ public class MagnetItem extends MctoolkitFusionModElements.ModElement {
 				double z = entity.getPosZ();
 				if (selected) {
 					Map<String, Object> $_dependencies = new HashMap<>();
-
 					$_dependencies.put("entity", entity);
-
 					MagnetToolInHandProcedure.executeProcedure($_dependencies);
 				}
 			}
-
 		}.setRegistryName("magnet"));
 	}
-
 	private static class ItemToolCustom extends Item {
-
 		protected ItemToolCustom() {
 			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(250));
 		}
@@ -72,10 +88,7 @@ public class MagnetItem extends MctoolkitFusionModElements.ModElement {
 						new AttributeModifier(ATTACK_SPEED_MODIFIER, "Tool modifier", -3, AttributeModifier.Operation.ADDITION));
 				return builder.build();
 			}
-
 			return super.getAttributeModifiers(equipmentSlot);
 		}
-
 	}
-
 }

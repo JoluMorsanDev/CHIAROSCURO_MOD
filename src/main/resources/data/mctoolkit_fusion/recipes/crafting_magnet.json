@@ -1,0 +1,36 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "mctoolkit_fusion:ruby"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "mctoolkit_fusion:ruby"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:magnet",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "item": "minecraft:ice"
+    },
+    "4": {
+      "item": "mctoolkit_fusion:soulcrystalshard"
+    },
+    "5": {
+      "item": "minecraft:book"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:ice_bridge_wand",
+    "count": 1
+  }
+}
