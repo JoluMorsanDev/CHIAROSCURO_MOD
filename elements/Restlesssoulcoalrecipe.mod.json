@@ -1,0 +1,23 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "CUSTOM:SoulCoal"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:RestlessSoulCrystalShard"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:RestlessSoulCoal"
+    },
+    "name": "restlesssoulcoalrecipe",
+    "namespace": "mod"
+  }
+}
