@@ -4,9 +4,18 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.mctoolkitfusion.block.WeatheredCutCopperBlock;
+import net.mcreator.mctoolkitfusion.block.WeatheredCopperBlockBlock;
+import net.mcreator.mctoolkitfusion.block.WaxedCopperBlockBlock;
+import net.mcreator.mctoolkitfusion.block.SemiWeatheredCutCopperBlock;
+import net.mcreator.mctoolkitfusion.block.SemiWeatheredCopperBlockBlock;
 import net.mcreator.mctoolkitfusion.block.RestlessSoulSoilBlock;
 import net.mcreator.mctoolkitfusion.block.RestlessSoulSandBlock;
 import net.mcreator.mctoolkitfusion.block.RestlessSoulFireBlock;
+import net.mcreator.mctoolkitfusion.block.LightlyWeatheredCutCopperBlock;
+import net.mcreator.mctoolkitfusion.block.LightlyWeatheredCopperBlockBlock;
+import net.mcreator.mctoolkitfusion.block.CutCooperBlock;
+import net.mcreator.mctoolkitfusion.block.CopperFireBlock;
 import net.mcreator.mctoolkitfusion.MctoolkitFusionModElements;
 import net.mcreator.mctoolkitfusion.MctoolkitFusionMod;
 
@@ -48,6 +57,23 @@ public class RestlessSoulFireUpdateTickProcedure extends MctoolkitFusionModEleme
 				|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == RestlessSoulSoilBlock.block.getDefaultState()
 						.getBlock()))) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), RestlessSoulFireBlock.block.getDefaultState(), 3);
+		} else if ((((((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == LightlyWeatheredCutCopperBlock.block
+				.getDefaultState().getBlock())
+				|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == LightlyWeatheredCopperBlockBlock.block
+						.getDefaultState().getBlock()))
+				|| (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == SemiWeatheredCutCopperBlock.block
+						.getDefaultState().getBlock())
+						|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == SemiWeatheredCopperBlockBlock.block
+								.getDefaultState().getBlock())))
+				|| ((((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == WeatheredCutCopperBlock.block
+						.getDefaultState().getBlock())
+						|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == WeatheredCopperBlockBlock.block
+								.getDefaultState().getBlock()))
+						|| (((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == CutCooperBlock.block.getDefaultState()
+								.getBlock())
+								|| ((world.getBlockState(new BlockPos((int) x, (int) (y - 1), (int) z))).getBlock() == WaxedCopperBlockBlock.block
+										.getDefaultState().getBlock()))))) {
+			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), CopperFireBlock.block.getDefaultState(), 3);
 		} else {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 		}

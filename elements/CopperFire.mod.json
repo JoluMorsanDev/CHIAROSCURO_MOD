@@ -2,22 +2,22 @@
   "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "weathered_cut_copper",
+    "texture": "copper_fire",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 13,
+    "customModelName": "Crop model",
     "rotationMode": 0,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "copperfire",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
@@ -26,56 +26,56 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Weathered Cut Copper",
+    "name": "copper Fire",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 6.0,
+    "hardness": 0.0,
+    "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "No creative tab entry"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "shovel",
     "customDrop": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "FIRE"
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "isReplaceable": true,
+    "colorOnMap": "RED",
     "creativePickItem": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "DAMAGE_FIRE",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": true,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "GROUND"
     },
-    "luminance": 0,
+    "luminance": 15,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "CUSTOM:SoulParticle"
+      "value": "CUSTOM:Restlesssoulparticle"
     },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleSpawningShape": "Top",
+    "particleSpawningRadious": 0.2999999985098839,
+    "particleAmount": 2,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -94,7 +94,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "RestlessSoulBlockFire"
+      "name": "RestlessSoulFireUpdateTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

@@ -6,11 +6,13 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.state.Property;
 import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.mctoolkitfusion.block.WeatheredCopperBlockBlock;
 import net.mcreator.mctoolkitfusion.block.SemiWeatheredCopperBlockBlock;
 import net.mcreator.mctoolkitfusion.block.LightlyWeatheredCopperBlockBlock;
+import net.mcreator.mctoolkitfusion.block.CopperFireBlock;
 import net.mcreator.mctoolkitfusion.block.CooperBlockBlock;
 import net.mcreator.mctoolkitfusion.MctoolkitFusionModElements;
 import net.mcreator.mctoolkitfusion.MctoolkitFusionMod;
@@ -330,6 +332,10 @@ public class CopperblockprocedureProcedure extends MctoolkitFusionModElements.Mo
 					}
 				}
 			}
+		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) (y + 1), (int) z))).getBlock() == CopperFireBlock.block.getDefaultState().getBlock())) {
+			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), Blocks.AIR.getDefaultState(), 3);
+			world.setBlockState(new BlockPos((int) x, (int) (y + 1), (int) z), CopperFireBlock.block.getDefaultState(), 3);
 		}
 	}
 }
