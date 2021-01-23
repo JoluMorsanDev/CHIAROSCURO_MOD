@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mctoolkit_fusion:blocks/end_stone",
+    "up": "mctoolkit_fusion:blocks/end_grass_top1",
+    "north": "mctoolkit_fusion:blocks/end_grass1",
+    "east": "mctoolkit_fusion:blocks/end_grass1",
+    "south": "mctoolkit_fusion:blocks/end_grass1",
+    "west": "mctoolkit_fusion:blocks/end_grass1",
+    "particle": "mctoolkit_fusion:blocks/end_stone"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:deleted_mod_element"
+    },
+    "1": {
+      "item": "mctoolkit_fusion:deleted_mod_element"
+    },
+    "2": {
+      "item": "mctoolkit_fusion:deleted_mod_element"
+    },
+    "3": {
+      "item": "mctoolkit_fusion:deleted_mod_element"
+    },
+    "5": {
+      "item": "mctoolkit_fusion:deleted_mod_element"
+    },
+    "6": {
+      "item": "mctoolkit_fusion:deleted_mod_element"
+    },
+    "7": {
+      "item": "mctoolkit_fusion:deleted_mod_element"
+    },
+    "8": {
+      "item": "mctoolkit_fusion:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal",
+    "count": 1
+  }
+}

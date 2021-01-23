@@ -1,0 +1,13 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mctoolkit_fusion:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "mctoolkit_fusion:ruby",
+    "count": 9
+  }
+}

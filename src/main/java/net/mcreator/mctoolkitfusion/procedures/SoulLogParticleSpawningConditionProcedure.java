@@ -57,7 +57,7 @@ public class SoulLogParticleSpawningConditionProcedure extends MctoolkitFusionMo
 					return Direction.NORTH;
 				}
 			}
-		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.DOWN) || ((new Object() {
+		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.NORTH) || ((new Object() {
 			public Direction getDirection(BlockPos pos) {
 				try {
 					BlockState _bs = world.getBlockState(pos);
@@ -71,7 +71,7 @@ public class SoulLogParticleSpawningConditionProcedure extends MctoolkitFusionMo
 					return Direction.NORTH;
 				}
 			}
-		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.UP)))) {
+		}.getDirection(new BlockPos((int) x, (int) y, (int) z))) == Direction.SOUTH)))) {
 			return (true);
 		}
 		return (false);

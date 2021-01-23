@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:RestlessPolishedSoulStone"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:RestlessSoulStonePillar"
+    },
+    "name": "restless_soul_stone_pillar_r_1",
+    "namespace": "mod"
+  }
+}

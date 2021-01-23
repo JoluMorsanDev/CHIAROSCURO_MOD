@@ -1,0 +1,9 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "mctoolkit_fusion:restless_soul_stone"
+  },
+  "result": "mctoolkit_fusion:restless_polished_soul_stone"
+}

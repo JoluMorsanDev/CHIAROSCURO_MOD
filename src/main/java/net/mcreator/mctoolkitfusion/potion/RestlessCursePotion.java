@@ -109,6 +109,7 @@ public class RestlessCursePotion extends MctoolkitFusionModElements.ModElement {
 			double z = entity.getPosZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
 				RestlessCursePotionExpiresProcedure.executeProcedure($_dependencies);
 			}
 		}

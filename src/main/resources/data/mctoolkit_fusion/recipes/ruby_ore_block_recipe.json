@@ -1,0 +1,42 @@
+{
+  "group": "mctoolkit_fusion",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mctoolkit_fusion:ruby"
+    },
+    "1": {
+      "item": "mctoolkit_fusion:ruby"
+    },
+    "2": {
+      "item": "mctoolkit_fusion:ruby"
+    },
+    "3": {
+      "item": "mctoolkit_fusion:ruby"
+    },
+    "4": {
+      "item": "mctoolkit_fusion:ruby"
+    },
+    "5": {
+      "item": "mctoolkit_fusion:ruby"
+    },
+    "6": {
+      "item": "mctoolkit_fusion:ruby"
+    },
+    "7": {
+      "item": "mctoolkit_fusion:ruby"
+    },
+    "8": {
+      "item": "mctoolkit_fusion:ruby"
+    }
+  },
+  "result": {
+    "item": "mctoolkit_fusion:deleted_mod_element",
+    "count": 1
+  }
+}

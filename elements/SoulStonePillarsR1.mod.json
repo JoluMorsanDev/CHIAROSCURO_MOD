@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:PolishedSoulStone"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:SoulStonePillars"
+    },
+    "name": "soul_stone_pillars_r_1",
+    "namespace": "mod"
+  }
+}
