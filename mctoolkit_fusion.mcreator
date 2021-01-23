@@ -1825,15 +1825,6 @@
       "registry_name": "rcp_psyche_bender"
     },
     {
-      "name": "FateMakerGUI",
-      "type": "gui",
-      "sortid": 159,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fate_maker_gui"
-    },
-    {
       "name": "FateMaker",
       "type": "block",
       "sortid": 158,
@@ -2254,6 +2245,50 @@
           }
         ]
       }
+    },
+    {
+      "name": "Restlesssoulcoalrecipe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "restlesssoulcoalrecipe"
+    },
+    {
+      "name": "FlamablePotionFoodEaten",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flamable_potion_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlamablePotion",
+      "type": "food",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flamable_potion"
+    },
+    {
+      "name": "Flmablepotionrecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flmablepotionrecipe"
     }
   ],
   "variable_elements": [
@@ -2284,6 +2319,7 @@
   ],
   "language_map": {
     "en_us": {
+      "item.mctoolkit_fusion.flamable_potion": "Flamable Potion",
       "item.mctoolkit_fusion.soul_bow": "Soul Bow",
       "entity.mctoolkit_fusion.anger_spore": "Anger Spore",
       "block.mctoolkit_fusion.waxed_lightly_withered_copper_stairs": "Waxed Lightly Weathered Cut Copper Stairs",
@@ -2400,6 +2436,7 @@
       "block.mctoolkit_fusion.waxed_cut_cooper_stairs": "Waxed Cut Copper Stairs"
     },
     "es_mx": {
+      "item.mctoolkit_fusion.flamable_potion": "Flamable Potion",
       "item.mctoolkit_fusion.soul_bow": "Soul Bow",
       "entity.mctoolkit_fusion.anger_spore": "Anger Spore",
       "block.mctoolkit_fusion.waxed_lightly_withered_copper_stairs": "Waxed Lightly Weathered Cut Copper",
@@ -2519,6 +2556,7 @@
       "block.mctoolkit_fusion.waxed_cut_cooper_stairs": "Waxed Cut Cooper "
     },
     "es_es": {
+      "item.mctoolkit_fusion.flamable_potion": "Flamable Potion",
       "item.mctoolkit_fusion.soul_bow": "Soul Bow",
       "entity.mctoolkit_fusion.anger_spore": "Anger Spore",
       "block.mctoolkit_fusion.waxed_lightly_withered_copper_stairs": "Waxed Lightly Weathered Cut Copper",
@@ -2638,6 +2676,7 @@
       "block.mctoolkit_fusion.waxed_cut_cooper_stairs": "Waxed Cut Cooper "
     },
     "zh_cn": {
+      "item.mctoolkit_fusion.flamable_potion": "Flamable Potion",
       "item.mctoolkit_fusion.soul_bow": "Soul Bow",
       "entity.mctoolkit_fusion.anger_spore": "Anger Spore",
       "block.mctoolkit_fusion.waxed_lightly_withered_copper_stairs": "Waxed Lightly Weathered Cut Copper",
@@ -2775,5 +2814,5 @@
     "modElementsPackage": "net.mcreator.mctoolkitfusion",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000652319
+  "mcreatorVersion": 202100103117
 }

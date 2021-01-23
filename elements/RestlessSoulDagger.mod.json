@@ -20,6 +20,7 @@
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
