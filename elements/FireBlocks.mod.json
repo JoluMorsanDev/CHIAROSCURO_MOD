@@ -1,0 +1,23 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RestlessSoulFire2"
+      },
+      {
+        "value": "CUSTOM:RestlessSoulFire"
+      },
+      {
+        "value": "CUSTOM:CopperFire"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "fire",
+    "namespace": "minecraft"
+  }
+}

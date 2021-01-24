@@ -2604,6 +2604,255 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "restless_soul_stone_brick_r_1"
+    },
+    {
+      "name": "CopperWrench",
+      "type": "tool",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_wrench"
+    },
+    {
+      "name": "CopperBee",
+      "type": "mob",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_bee"
+    },
+    {
+      "name": "LavaTridentHitsEntity",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_trident_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BeehiveInhabitorEntities",
+      "type": "tag",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beehive_inhabitor_entities"
+    },
+    {
+      "name": "CraftingCopperWrench",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_copper_wrench"
+    },
+    {
+      "name": "LavaTridentHitsBlock",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_trident_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperFire",
+      "type": "block",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_fire"
+    },
+    {
+      "name": "MagmaCreature",
+      "type": "mob",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_creature"
+    },
+    {
+      "name": "CopperWrenchOnBlock",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_wrench_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Backpack",
+      "type": "item",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backpack"
+    },
+    {
+      "name": "LavaTrident",
+      "type": "gun",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_trident"
+    },
+    {
+      "name": "MagmaCreatureSpawning",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_creature_spawning",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MakingBasaltBrick2",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "making_basalt_brick_2"
+    },
+    {
+      "name": "CraftingBackpack",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_backpack"
+    },
+    {
+      "name": "CraftingMagnet",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_magnet"
+    },
+    {
+      "name": "BackpackGUI",
+      "type": "gui",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backpack_gui"
+    },
+    {
+      "name": "FireBlocks",
+      "type": "tag",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_blocks"
+    },
+    {
+      "name": "MagmaCreatureLoot",
+      "type": "loottable",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_creature_loot"
+    },
+    {
+      "name": "SoulBee",
+      "type": "mob",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_bee"
+    },
+    {
+      "name": "CraftingIceBrigdeWand",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crafting_ice_brigde_wand"
     }
   ],
   "variable_elements": [
@@ -2638,8 +2887,8 @@
       "item.mctoolkit_fusion.soul_bow": "Soul Bow",
       "entity.mctoolkit_fusion.anger_spore": "Anger Spore",
       "block.mctoolkit_fusion.waxed_lightly_withered_copper_stairs": "Waxed Lightly Weathered Cut Copper Stairs",
-      "effect.ragereffect": "Ragereffect",
       "entity.mctoolkit_fusion.spritghast": "Sprit Ghast",
+      "effect.ragereffect": "Ragereffect",
       "block.mctoolkit_fusion.restless_polished_soul_stone": "Restless Polished Soul Stone",
       "block.mctoolkit_fusion.soul_wood": "Soul Wood",
       "block.mctoolkit_fusion.waxed_lightly_weathered_copper_block": "Waxed Lightly Weathered Copper Block",
@@ -2649,6 +2898,7 @@
       "item.mctoolkit_fusion.bassaltarmor_chestplate": "Basalt Chestplate",
       "item.minecraft.potion.effect.ragereffect": "Rager effect",
       "item.minecraft.tipped_arrow.effect.ragereffect": "Arrow of Rager effect",
+      "entity.mctoolkit_fusion.magma_creature": "Magma Creature",
       "block.mctoolkit_fusion.restles_soul_coal_ore": "Restless Soul Coal Ore",
       "item.minecraft.tipped_arrow.effect.flammable": "Arrow of Flammable",
       "block.mctoolkit_fusion.soul_wood_trapdoor": "Soul Wood Trapdoor",
@@ -2662,12 +2912,13 @@
       "block.mctoolkit_fusion.lingering_souls": "Lingering Souls",
       "item.minecraft.splash_potion.effect.ragereffect": "Splash Rager effect",
       "effect.icy_effect": "Icy",
-      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
       "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper": "Waxed Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
       "block.mctoolkit_fusion.soul_fence_gate": "Soul Fence Gate",
-      "block.mctoolkit_fusion.restless_soul_crystal_ore": "Embedded Restless Soul Crystals",
-      "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper Stairs",
       "block.mctoolkit_fusion.soul_coal_ore": "Soul Coal Ore",
+      "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper Stairs",
+      "block.mctoolkit_fusion.restless_soul_crystal_ore": "Embedded Restless Soul Crystals",
+      "block.mctoolkit_fusion.copper_fire": "copper Fire",
       "item.mctoolkit_fusion.magnet": "Magnet",
       "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
       "block.mctoolkit_fusion.restless_soul_fire_2": "Restless Soul Fire",
@@ -2682,8 +2933,10 @@
       "entity.mctoolkit_fusion.sprit": "Spirit",
       "block.mctoolkit_fusion.waxed_cut_copper_slabs": "Waxed Cut Copper Slab",
       "item.mctoolkit_fusion.soulcrystalshard": "Soul Crystal Shard",
+      "entity.mctoolkit_fusion.copper_bee": "Copper Bee",
       "item.minecraft.lingering_potion.effect.icy_effect": "Lingering Icy",
       "item.minecraft.tipped_arrow.effect.icy_effect": "Arrow of Icy",
+      "item.mctoolkit_fusion.magma_creature_spawn_egg": "Magma Creature Spawn Egg",
       "item.minecraft.lingering_potion.effect.death_wish": "Lingering Death Wish",
       "block.mctoolkit_fusion.restless_soul_stone_brick": " Restless Soul Stone Brick",
       "item.minecraft.lingering_potion.effect.ragereffect": "Lingering Rager effect",
@@ -2721,14 +2974,18 @@
       "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
       "item.minecraft.lingering_potion.effect.restless_curse": "Lingering Restless Curse",
       "item.mctoolkit_fusion.restless_soul_dagger": "Restless Soul Dagger",
+      "item.mctoolkit_fusion.copper_bee_spawn_egg": "Copper Bee Spawn Egg",
       "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
       "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt Leggings",
       "item.mctoolkit_fusion.anger_spore_spawn_egg": "Anger Spore Spawn Egg",
       "block.mctoolkit_fusion.waxed_cut_cooper": "Waxed Cut Copper ",
       "block.mctoolkit_fusion.waxed_copper_block": "Waxed Copper Block",
       "effect.flammable": "Flammable",
+      "item.mctoolkit_fusion.copper_wrench": "Copper Wrench",
       "item.minecraft.splash_potion.effect.flammable": "Splash Flammable",
+      "item.mctoolkit_fusion.soul_bee_spawn_egg": "Soul Bee Spawn Egg",
       "block.mctoolkit_fusion.lightly_weathered_cut_copper": "Lightly Weathered Cut Copper",
+      "item.mctoolkit_fusion.lava_trident": "Lava Trident",
       "item.mctoolkit_fusion.restless_soul_coal": "Restless Soul Coal",
       "block.mctoolkit_fusion.soulstone": "Soul Stone",
       "block.mctoolkit_fusion.soul_planks": "Soul Planks",
@@ -2741,6 +2998,7 @@
       "item.mctoolkit_fusion.soul_coal": "Soul Coal",
       "entity.mctoolkit_fusion.soul": "Soul",
       "block.mctoolkit_fusion.weathered_cut_copper": "Weathered Cut Copper",
+      "item.mctoolkit_fusion.backpack": "Backpack",
       "block.mctoolkit_fusion.cut_cooper_stairs": "Cut Copper Stairs",
       "block.mctoolkit_fusion.cut_cooper": "Cut Copper ",
       "subtitles.red_rager_idle": "Red Rager grumbles",
@@ -2758,6 +3016,7 @@
       "entity.mctoolkit_fusion.red_rager": "Red Rager",
       "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt Helmet",
       "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",
+      "entity.mctoolkit_fusion.soul_bee": "Soul Bee",
       "block.mctoolkit_fusion.ruby_ore": "Ruby Ore",
       "item.mctoolkit_fusion.bassaltarmor_boots": "Basalt Boots",
       "block.mctoolkit_fusion.weathered_copper_slabs": "Weathered Cut Copper Slab",
@@ -2782,10 +3041,11 @@
       "item.minecraft.potion.effect.ragereffect": "Rager effect",
       "item.minecraft.tipped_arrow.effect.ragereffect": "Arrow of Rager effect",
       "block.mctoolkit_fusion.soulcrystal_0": "Cristal de alma",
+      "entity.mctoolkit_fusion.magma_creature": "Magma Creature",
       "block.mctoolkit_fusion.restles_soul_coal_ore": "Soul Coal Ore",
       "item.minecraft.tipped_arrow.effect.flammable": "Arrow of Flammable",
-      "block.mctoolkit_fusion.soul_wood_trapdoor": "Soul Wood Door",
       "item.minecraft.splash_potion.effect.icy_effect": "Splash Icy",
+      "block.mctoolkit_fusion.soul_wood_trapdoor": "Soul Wood Door",
       "item.mctoolkit_fusion.sprit_spawn_egg": "Sprit Spawn Egg",
       "block.mctoolkit_fusion.soul_log": "Soul Log",
       "block.mctoolkit_fusion.waxed_ligthly_cut_copper_slabs": "Waxed Lightly Weathered Cut Copper Stairs",
@@ -2795,13 +3055,14 @@
       "block.mctoolkit_fusion.lingering_souls": "Lingering Souls",
       "item.minecraft.splash_potion.effect.ragereffect": "Splash Rager effect",
       "effect.icy_effect": "Icy",
-      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
       "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
       "block.mctoolkit_fusion.soul_fence_gate": "Soul Fence Gate",
       "block.mctoolkit_fusion.soul_coal_ore": "Mineral de carbon de alma",
       "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper",
       "block.mctoolkit_fusion.restless_soul_crystal_ore": "Embedded Soul Crystals",
       "item.mctoolkit_fusion.magnet": "Magnet",
+      "block.mctoolkit_fusion.copper_fire": "copper Fire",
       "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
       "block.mctoolkit_fusion.restless_soul_fire_2": "Restless Soul Fire",
       "block.mctoolkit_fusion.restless_soul_fire": "Restless Soul Fire",
@@ -2815,8 +3076,10 @@
       "entity.mctoolkit_fusion.sprit": "Sprit",
       "block.mctoolkit_fusion.waxed_cut_copper_slabs": "Waxed Cut Cooper ",
       "item.mctoolkit_fusion.soulcrystalshard": "Gema de alma",
+      "entity.mctoolkit_fusion.copper_bee": "Copper Bee",
       "item.minecraft.lingering_potion.effect.icy_effect": "Lingering Icy",
       "item.minecraft.tipped_arrow.effect.icy_effect": "Arrow of Icy",
+      "item.mctoolkit_fusion.magma_creature_spawn_egg": "Magma Creature Spawn Egg",
       "item.minecraft.lingering_potion.effect.death_wish": "Lingering Death Wish",
       "block.mctoolkit_fusion.restless_soul_stone_brick": "Soul Stone Brick",
       "item.minecraft.lingering_potion.effect.ragereffect": "Lingering Rager effect",
@@ -2854,6 +3117,7 @@
       "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
       "item.minecraft.lingering_potion.effect.restless_curse": "Lingering Restless Curse",
       "item.mctoolkit_fusion.restless_soul_dagger": "Soul Dagger",
+      "item.mctoolkit_fusion.copper_bee_spawn_egg": "Copper Bee Spawn Egg",
       "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
       "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt armor Leggings",
       "item.mctoolkit_fusion.anger_spore_spawn_egg": "Anger Spore Spawn Egg",
@@ -2861,7 +3125,9 @@
       "block.mctoolkit_fusion.waxed_cut_cooper": "Cut Cooper ",
       "effect.flammable": "Flammable",
       "item.minecraft.splash_potion.effect.flammable": "Splash Flammable",
+      "item.mctoolkit_fusion.soul_bee_spawn_egg": "Soul Bee Spawn Egg",
       "block.mctoolkit_fusion.lightly_weathered_cut_copper": "Cut Cooper ",
+      "item.mctoolkit_fusion.lava_trident": "Lava Trident",
       "item.mctoolkit_fusion.restless_soul_coal": "Soul Coal",
       "block.mctoolkit_fusion.soulstone": "Piedra de almas",
       "block.mctoolkit_fusion.soul_planks": "Soul Planks",
@@ -2874,6 +3140,7 @@
       "item.mctoolkit_fusion.soul_coal": "Carbon de almas",
       "entity.mctoolkit_fusion.soul": "Soul",
       "block.mctoolkit_fusion.weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "item.mctoolkit_fusion.backpack": "Backpack",
       "block.mctoolkit_fusion.cut_cooper_stairs": "Cut Cooper ",
       "block.mctoolkit_fusion.cut_cooper": "Weathered Copper Block",
       "subtitles.red_rager_idle": "Red Rager grumbles",
@@ -2891,6 +3158,7 @@
       "entity.mctoolkit_fusion.red_rager": "Ira roja",
       "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt armor Helmet",
       "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",
+      "entity.mctoolkit_fusion.soul_bee": "Soul Bee",
       "item.mctoolkit_fusion.soulwoodstick": "Soul wood stick",
       "block.mctoolkit_fusion.ruby_ore": "Ruby Ore",
       "item.mctoolkit_fusion.bassaltarmor_boots": "Basalt armor Boots",
@@ -2916,10 +3184,11 @@
       "item.minecraft.potion.effect.ragereffect": "Rager effect",
       "item.minecraft.tipped_arrow.effect.ragereffect": "Arrow of Rager effect",
       "block.mctoolkit_fusion.soulcrystal_0": "Soul crystal ",
+      "entity.mctoolkit_fusion.magma_creature": "Magma Creature",
       "block.mctoolkit_fusion.restles_soul_coal_ore": "Soul Coal Ore",
       "item.minecraft.tipped_arrow.effect.flammable": "Arrow of Flammable",
-      "block.mctoolkit_fusion.soul_wood_trapdoor": "Soul Wood Door",
       "item.minecraft.splash_potion.effect.icy_effect": "Splash Icy",
+      "block.mctoolkit_fusion.soul_wood_trapdoor": "Soul Wood Door",
       "item.mctoolkit_fusion.sprit_spawn_egg": "Sprit Spawn Egg",
       "block.mctoolkit_fusion.soul_log": "Soul Log",
       "block.mctoolkit_fusion.waxed_ligthly_cut_copper_slabs": "Waxed Lightly Weathered Cut Copper Stairs",
@@ -2929,13 +3198,14 @@
       "block.mctoolkit_fusion.lingering_souls": "Lingering Souls",
       "item.minecraft.splash_potion.effect.ragereffect": "Splash Rager effect",
       "effect.icy_effect": "Icy",
-      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
       "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
       "block.mctoolkit_fusion.soul_fence_gate": "Soul Fence Gate",
       "block.mctoolkit_fusion.soul_coal_ore": "Mineral de carbon de alma",
       "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper",
       "block.mctoolkit_fusion.restless_soul_crystal_ore": "Embedded Soul Crystals",
       "item.mctoolkit_fusion.magnet": "Magnet",
+      "block.mctoolkit_fusion.copper_fire": "copper Fire",
       "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
       "block.mctoolkit_fusion.restless_soul_fire_2": "Restless Soul Fire",
       "block.mctoolkit_fusion.restless_soul_fire": "Restless Soul Fire",
@@ -2949,8 +3219,10 @@
       "entity.mctoolkit_fusion.sprit": "Sprit",
       "block.mctoolkit_fusion.waxed_cut_copper_slabs": "Waxed Cut Cooper ",
       "item.mctoolkit_fusion.soulcrystalshard": "Sou lcrystal shard",
+      "entity.mctoolkit_fusion.copper_bee": "Copper Bee",
       "item.minecraft.lingering_potion.effect.icy_effect": "Lingering Icy",
       "item.minecraft.tipped_arrow.effect.icy_effect": "Arrow of Icy",
+      "item.mctoolkit_fusion.magma_creature_spawn_egg": "Magma Creature Spawn Egg",
       "item.minecraft.lingering_potion.effect.death_wish": "Lingering Death Wish",
       "block.mctoolkit_fusion.restless_soul_stone_brick": "Soul Stone Brick",
       "item.minecraft.lingering_potion.effect.ragereffect": "Lingering Rager effect",
@@ -2988,6 +3260,7 @@
       "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
       "item.minecraft.lingering_potion.effect.restless_curse": "Lingering Restless Curse",
       "item.mctoolkit_fusion.restless_soul_dagger": "Soul Dagger",
+      "item.mctoolkit_fusion.copper_bee_spawn_egg": "Copper Bee Spawn Egg",
       "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
       "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt armor Leggings",
       "item.mctoolkit_fusion.anger_spore_spawn_egg": "Anger Spore Spawn Egg",
@@ -2995,7 +3268,9 @@
       "block.mctoolkit_fusion.waxed_cut_cooper": "Cut Cooper ",
       "effect.flammable": "Flammable",
       "item.minecraft.splash_potion.effect.flammable": "Splash Flammable",
+      "item.mctoolkit_fusion.soul_bee_spawn_egg": "Soul Bee Spawn Egg",
       "block.mctoolkit_fusion.lightly_weathered_cut_copper": "Cut Cooper ",
+      "item.mctoolkit_fusion.lava_trident": "Lava Trident",
       "item.mctoolkit_fusion.restless_soul_coal": "Soul Coal",
       "block.mctoolkit_fusion.soulstone": "Piedra de almas",
       "block.mctoolkit_fusion.soul_planks": "Soul Planks",
@@ -3008,6 +3283,7 @@
       "item.mctoolkit_fusion.soul_coal": "Carbon de alma",
       "entity.mctoolkit_fusion.soul": "Soul",
       "block.mctoolkit_fusion.weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "item.mctoolkit_fusion.backpack": "Backpack",
       "block.mctoolkit_fusion.cut_cooper_stairs": "Cut Cooper ",
       "block.mctoolkit_fusion.cut_cooper": "Weathered Copper Block",
       "subtitles.red_rager_idle": "Red Rager grumbles",
@@ -3025,6 +3301,7 @@
       "entity.mctoolkit_fusion.red_rager": "Rabia roja",
       "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt armor Helmet",
       "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",
+      "entity.mctoolkit_fusion.soul_bee": "Soul Bee",
       "item.mctoolkit_fusion.soulwoodstick": "Soul wood stick",
       "block.mctoolkit_fusion.ruby_ore": "Ruby Ore",
       "item.mctoolkit_fusion.bassaltarmor_boots": "Basalt armor Boots",
@@ -3050,10 +3327,11 @@
       "item.minecraft.potion.effect.ragereffect": "Rager effect",
       "item.minecraft.tipped_arrow.effect.ragereffect": "Arrow of Rager effect",
       "block.mctoolkit_fusion.soulcrystal_0": "Soul Crystal ",
+      "entity.mctoolkit_fusion.magma_creature": "Magma Creature",
       "block.mctoolkit_fusion.restles_soul_coal_ore": "Soul Coal Ore",
       "item.minecraft.tipped_arrow.effect.flammable": "Arrow of Flammable",
-      "block.mctoolkit_fusion.soul_wood_trapdoor": "Soul Wood Door",
       "item.minecraft.splash_potion.effect.icy_effect": "Splash Icy",
+      "block.mctoolkit_fusion.soul_wood_trapdoor": "Soul Wood Door",
       "item.mctoolkit_fusion.sprit_spawn_egg": "Sprit Spawn Egg",
       "block.mctoolkit_fusion.soul_log": "Soul Log",
       "block.mctoolkit_fusion.waxed_ligthly_cut_copper_slabs": "Waxed Lightly Weathered Cut Copper Stairs",
@@ -3063,13 +3341,14 @@
       "block.mctoolkit_fusion.lingering_souls": "Lingering Souls",
       "item.minecraft.splash_potion.effect.ragereffect": "Splash Rager effect",
       "effect.icy_effect": "Icy",
-      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
       "block.mctoolkit_fusion.waxed_semi_weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "block.mctoolkit_fusion.soul_stone_pillars": "Soul Stone Pillars",
       "block.mctoolkit_fusion.soul_fence_gate": "Soul Fence Gate",
       "block.mctoolkit_fusion.soul_coal_ore": "鬼煤矿石",
       "block.mctoolkit_fusion.waxed_semi_weathered_copper_stairs": "Waxed Semi-Weathered Cut Copper",
       "block.mctoolkit_fusion.restless_soul_crystal_ore": "Embedded Soul Crystals",
       "item.mctoolkit_fusion.magnet": "Magnet",
+      "block.mctoolkit_fusion.copper_fire": "copper Fire",
       "block.mctoolkit_fusion.soul_stairs": "Soul Stairs",
       "block.mctoolkit_fusion.restless_soul_fire_2": "Restless Soul Fire",
       "block.mctoolkit_fusion.restless_soul_fire": "Restless Soul Fire",
@@ -3083,8 +3362,10 @@
       "entity.mctoolkit_fusion.sprit": "Sprit",
       "block.mctoolkit_fusion.waxed_cut_copper_slabs": "Waxed Cut Cooper ",
       "item.mctoolkit_fusion.soulcrystalshard": "鬼晶碎片",
+      "entity.mctoolkit_fusion.copper_bee": "Copper Bee",
       "item.minecraft.lingering_potion.effect.icy_effect": "Lingering Icy",
       "item.minecraft.tipped_arrow.effect.icy_effect": "Arrow of Icy",
+      "item.mctoolkit_fusion.magma_creature_spawn_egg": "Magma Creature Spawn Egg",
       "item.minecraft.lingering_potion.effect.death_wish": "Lingering Death Wish",
       "block.mctoolkit_fusion.restless_soul_stone_brick": "Soul Stone Brick",
       "item.minecraft.lingering_potion.effect.ragereffect": "Lingering Rager effect",
@@ -3122,6 +3403,7 @@
       "item.minecraft.splash_potion.effect.death_wish": "Splash Death Wish",
       "item.minecraft.lingering_potion.effect.restless_curse": "Lingering Restless Curse",
       "item.mctoolkit_fusion.restless_soul_dagger": "Soul Dagger",
+      "item.mctoolkit_fusion.copper_bee_spawn_egg": "Copper Bee Spawn Egg",
       "item.mctoolkit_fusion.copper_ingot": "Copper Ingot",
       "item.mctoolkit_fusion.bassaltarmor_leggings": "Basalt Leggings",
       "item.mctoolkit_fusion.anger_spore_spawn_egg": "Anger Spore Spawn Egg",
@@ -3129,7 +3411,9 @@
       "block.mctoolkit_fusion.waxed_cut_cooper": "Cut Cooper ",
       "effect.flammable": "Flammable",
       "item.minecraft.splash_potion.effect.flammable": "Splash Flammable",
+      "item.mctoolkit_fusion.soul_bee_spawn_egg": "Soul Bee Spawn Egg",
       "block.mctoolkit_fusion.lightly_weathered_cut_copper": "Cut Cooper ",
+      "item.mctoolkit_fusion.lava_trident": "Lava Trident",
       "item.mctoolkit_fusion.restless_soul_coal": "Soul Coal",
       "block.mctoolkit_fusion.soulstone": "鬼石",
       "block.mctoolkit_fusion.soul_planks": "Soul Planks",
@@ -3142,6 +3426,7 @@
       "item.mctoolkit_fusion.soul_coal": "鬼煤",
       "entity.mctoolkit_fusion.soul": "Soul",
       "block.mctoolkit_fusion.weathered_cut_copper": "Semi-Weathered Cut Copper",
+      "item.mctoolkit_fusion.backpack": "Backpack",
       "block.mctoolkit_fusion.cut_cooper_stairs": "Cut Cooper ",
       "block.mctoolkit_fusion.cut_cooper": "Weathered Copper Block",
       "subtitles.red_rager_idle": "Red Rager grumbles",
@@ -3159,6 +3444,7 @@
       "entity.mctoolkit_fusion.red_rager": "怒气红红",
       "item.mctoolkit_fusion.bassaltarmor_helmet": "Basalt Helmet",
       "block.mctoolkit_fusion.soul_crystal_ore": "Embedded Soul Crystals",
+      "entity.mctoolkit_fusion.soul_bee": "Soul Bee",
       "item.mctoolkit_fusion.soulwoodstick": "Soul wood stick",
       "block.mctoolkit_fusion.ruby_ore": "Ruby Ore",
       "item.mctoolkit_fusion.bassaltarmor_boots": "Basalt Boots",
@@ -3185,5 +3471,5 @@
     "modElementsPackage": "net.mcreator.mctoolkitfusion",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100103117
+  "mcreatorVersion": 202000652319
 }

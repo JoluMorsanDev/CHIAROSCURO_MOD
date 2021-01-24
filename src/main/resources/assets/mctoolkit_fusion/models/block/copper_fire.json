@@ -1,0 +1,7 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "mctoolkit_fusion:blocks/copper_fire",
+    "particle": "mctoolkit_fusion:blocks/copper_fire"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:SoulBee"
+      },
+      {
+        "value": "CUSTOM:CopperBee"
+      }
+    ],
+    "name": "beehive_inhabitors",
+    "namespace": "minecraft"
+  }
+}
