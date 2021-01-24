@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "mctoolkit_fusion:deleted_mod_element"
+      "item": "mctoolkit_fusion:ruby_block"
     }
   ],
   "result": {
